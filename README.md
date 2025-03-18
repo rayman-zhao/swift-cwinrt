@@ -1,5 +1,6 @@
 # swift-cwinrt
 Modeled after https://github.com/thebrowsercompany/swift-cwinrt
+Projections for Windows SDK 10.0.18362 and up to date Windows App SDK.
 
 ## Workflow
 
