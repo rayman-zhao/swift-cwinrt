@@ -47182,17 +47182,17 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode
         __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIIconSource** value);
     HRESULT (STDMETHODCALLTYPE* put_IconSource)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIIconSource* value);
-    HRESULT (STDMETHODCALLTYPE* get_LeftContent)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
+    HRESULT (STDMETHODCALLTYPE* get_LeftHeader)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement** value);
-    HRESULT (STDMETHODCALLTYPE* put_LeftContent)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
+    HRESULT (STDMETHODCALLTYPE* put_LeftHeader)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement* value);
-    HRESULT (STDMETHODCALLTYPE* get_CenterContent)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
+    HRESULT (STDMETHODCALLTYPE* get_Content)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement** value);
-    HRESULT (STDMETHODCALLTYPE* put_CenterContent)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
+    HRESULT (STDMETHODCALLTYPE* put_Content)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement* value);
-    HRESULT (STDMETHODCALLTYPE* get_RightContent)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
+    HRESULT (STDMETHODCALLTYPE* get_RightHeader)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement** value);
-    HRESULT (STDMETHODCALLTYPE* put_RightContent)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
+    HRESULT (STDMETHODCALLTYPE* put_RightHeader)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement* value);
     HRESULT (STDMETHODCALLTYPE* get_IsBackButtonVisible)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar* This,
         boolean* value);
@@ -47357,11 +47357,11 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode
         __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
     HRESULT (STDMETHODCALLTYPE* get_IconSourceProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
-    HRESULT (STDMETHODCALLTYPE* get_LeftContentProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
+    HRESULT (STDMETHODCALLTYPE* get_LeftHeaderProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
-    HRESULT (STDMETHODCALLTYPE* get_CenterContentProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
+    HRESULT (STDMETHODCALLTYPE* get_ContentProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
-    HRESULT (STDMETHODCALLTYPE* get_RightContentProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
+    HRESULT (STDMETHODCALLTYPE* get_RightHeaderProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
     HRESULT (STDMETHODCALLTYPE* get_IsBackButtonVisibleProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics* This,
         __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);

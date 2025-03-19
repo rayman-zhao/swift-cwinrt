@@ -54,6 +54,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2 __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetManager_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetManager_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetManager __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetManager;
@@ -143,6 +149,12 @@
     typedef interface __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2 __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptionsFactory_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptionsFactory_FWD_DEFINED__
@@ -386,6 +398,44 @@ typedef interface __x_ABI_C__FIMapView_2_HSTRING_HSTRING __x_ABI_C__FIMapView_2_
     
     #endif // ____x_ABI_C__FIMap_2_HSTRING_HSTRING_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_boolean __x_ABI_C__FIReference_1_boolean;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_boolean;
+
+    typedef struct __x_ABI_C__FIReference_1_booleanVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_boolean* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_boolean* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_boolean* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_boolean* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_boolean* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_boolean* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_boolean* This,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_booleanVtbl;
+
+    interface __x_ABI_C__FIReference_1_boolean
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_booleanVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__
+    
 typedef enum __x_ABI_CMicrosoft_CWindows_CWidgets_CWidgetSize __x_ABI_CMicrosoft_CWindows_CWidgets_CWidgetSize;
 
 typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
@@ -395,6 +445,12 @@ typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundati
     typedef interface __x_ABI_CWindows_CFoundation_CIDeferral __x_ABI_CWindows_CFoundation_CIDeferral;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIDeferral_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIPropertyValue __x_ABI_CWindows_CFoundation_CIPropertyValue;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CStreams_CIRandomAccessStreamReference_FWD_DEFINED__
@@ -658,6 +714,39 @@ typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundati
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsPlaceholderContent)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetInfo2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetManager_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetManager_INTERFACE_DEFINED__
@@ -1217,6 +1306,41 @@ typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundati
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsPlaceholderContent)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This,
+        __x_ABI_C__FIReference_1_boolean** value);
+    HRESULT (STDMETHODCALLTYPE* put_IsPlaceholderContent)(__x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2* This,
+        __x_ABI_C__FIReference_1_boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptions2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptionsFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CWidgets_CProviders_CIWidgetUpdateRequestOptionsFactory_INTERFACE_DEFINED__
