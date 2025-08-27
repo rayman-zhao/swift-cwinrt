@@ -824,6 +824,12 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollEve
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2 __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenterFactory_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenterFactory_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenterFactory __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenterFactory;
@@ -2431,6 +2437,46 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollCompletedEventArgs_INTERFACE_DEFINED__
     
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingScrollStartingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingScrollStartingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingScrollStartingEventArgs __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingScrollStartingEventArgs;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingScrollStartingEventArgs_FWD_DEFINED__
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter* sender,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingScrollStartingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs_INTERFACE_DEFINED__
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomAnimationStartingEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomAnimationStartingEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomAnimationStartingEventArgs __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomAnimationStartingEventArgs;
@@ -2507,6 +2553,46 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomCompletedEventArgs_INTERFACE_DEFINED__
     
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomStartingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomStartingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomStartingEventArgs __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomStartingEventArgs;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomStartingEventArgs_FWD_DEFINED__
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter* sender,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIScrollingZoomStartingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs_INTERFACE_DEFINED__
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionAnimation_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionAnimation_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CICompositionAnimation __x_ABI_CMicrosoft_CUI_CComposition_CICompositionAnimation;
@@ -9284,6 +9370,49 @@ struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CGeneratorPosition
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_ScrollStarting)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingScrollStartingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ScrollStarting)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_ZoomStarting)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CXaml__CControls__CPrimitives__CScrollPresenter___x_ABI_CMicrosoft__CUI__CXaml__CControls__CScrollingZoomStartingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ZoomStarting)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenter2_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenterFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenterFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CPrimitives_CIScrollPresenterFactoryVtbl

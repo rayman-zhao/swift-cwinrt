@@ -953,6 +953,12 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CIVisualStateChangedEventHandler 
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFactory_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi __x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlResourceReferenceFailedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlResourceReferenceFailedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CIXamlResourceReferenceFailedEventArgs __x_ABI_CMicrosoft_CUI_CXaml_CIXamlResourceReferenceFailedEventArgs;
@@ -12613,6 +12619,43 @@ struct __x_ABI_CMicrosoft_CUI_CXaml_CThickness
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFactory_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApiVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ShouldConstrainPopupsToWorkArea)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ShouldConstrainPopupsToWorkArea)(__x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApiVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApiVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CIXamlIslandFeature__ExperimentalApi_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CIXamlResourceReferenceFailedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CIXamlResourceReferenceFailedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CIXamlResourceReferenceFailedEventArgsVtbl

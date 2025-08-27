@@ -23,6 +23,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2 __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2;
+
+#endif // ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformationStatics_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformationStatics_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformationStatics __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformationStatics;
@@ -115,6 +121,46 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CStorage__CStreams__CIRandomAccessStream_INTERFACE_DEFINED__
     
+typedef struct __x_ABI_CWindows_CFoundation_CPoint __x_ABI_CWindows_CFoundation_CPoint;
+
+#if !defined(____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint;
+
+    typedef struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPointVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint* This,
+        struct __x_ABI_CWindows_CFoundation_CPoint* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPointVtbl;
+
+    interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPointVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CGraphics__CDisplay__CDisplayInformation_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CGraphics__CDisplay__CDisplayInformation_IInspectable_INTERFACE_DEFINED__
 
@@ -171,11 +217,17 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
 
-typedef struct __x_ABI_CWindows_CFoundation_CPoint __x_ABI_CWindows_CFoundation_CPoint;
+#ifndef ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIPropertyValue __x_ABI_CWindows_CFoundation_CIPropertyValue;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
 
 typedef enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayAdvancedColorKind __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayAdvancedColorKind;
 
 typedef enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayHdrMetadataFormat __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayHdrMetadataFormat;
+
+typedef enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation;
 
 enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayAdvancedColorKind
     {
@@ -189,6 +241,16 @@ enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayHdrMetadataFormat
         __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayHdrMetadataFormat_Hdr10 = 0,
     __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayHdrMetadataFormat_Hdr10Plus = 1,
 };
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation
+    {
+        __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation_RotateNone = 0,
+    __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation_Rotate90Degrees = 90,
+    __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation_Rotate180Degrees = 180,
+    __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation_Rotate270Degrees = 270,
+};
+#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
 #if !defined(____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayAdvancedColorInfo_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayAdvancedColorInfo_INTERFACE_DEFINED__
@@ -306,6 +368,55 @@ enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayHdrMetadataFormat
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation;
 #endif /* !defined(____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_RawDpi)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CPoint** value);
+    HRESULT (STDMETHODCALLTYPE* get_RawPixelsPerViewPixel)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+        DOUBLE* value);
+    HRESULT (STDMETHODCALLTYPE* add_DpiChanged)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CGraphics__CDisplay__CDisplayInformation_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_DpiChanged)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* get_AngularOffsetFromNativeOrientation)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+        enum __x_ABI_CMicrosoft_CGraphics_CDisplay_CDisplayOrientation* value);
+    HRESULT (STDMETHODCALLTYPE* add_OrientationChanged)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CGraphics__CDisplay__CDisplayInformation_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_OrientationChanged)(__x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2;
+#endif /* !defined(____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformation2_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformationStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformationStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CGraphics_CDisplay_CIDisplayInformationStaticsVtbl

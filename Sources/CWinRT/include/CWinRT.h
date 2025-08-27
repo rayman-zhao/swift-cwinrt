@@ -5,6 +5,7 @@
 #include <minwindef.h>
 #include <winnt.h>
 #include <combaseapi.h> // IUnknown, CoCreateInstance
+#include <inspectable.h> // IInspectable
 #include <oleauto.h> // BSTR, Sys***String***
 #include <roapi.h> // Ro***
 #include "RestrictedErrorInfo.h" // IRestrictedErrorInfo (C definition)
@@ -16,6 +17,7 @@
 #undef FindText
 #undef GetClassName
 #undef GetObject
+#undef GetGlyphIndices
 
 #define ENABLE_WINRT_EXPERIMENTAL_TYPES
 
@@ -24,6 +26,7 @@
 
 #include "CppInteropWorkaround.h" // TODO(WIN-860): Remove workaround once C++ interop issues with WinSDK.GUID are fixed.
 #include "MemoryBuffer.h" // IMemoryBufferByteAccess (C definition)
+#include "WeakReference.h" // IWeakReference[Source] (C definition)
 #include "robuffer.h" // IBufferByteAccess (C definition)
 #include "Microsoft.Graphics.Canvas.h"
 #include "Microsoft.Graphics.Canvas.Brushes.h"
@@ -37,12 +40,14 @@
 #include "Microsoft.Graphics.Canvas.UI.Xaml.h"
 #include "Microsoft.Graphics.DirectX.h"
 #include "Microsoft.Graphics.Display.h"
+#include "Microsoft.Graphics.Imaging.h"
 #include "Microsoft.Security.Authentication.OAuth.h"
 #include "Microsoft.UI.h"
 #include "Microsoft.UI.Composition.h"
 #include "Microsoft.UI.Composition.Core.h"
 #include "Microsoft.UI.Composition.Diagnostics.h"
 #include "Microsoft.UI.Composition.Effects.h"
+#include "Microsoft.UI.Composition.Experimental.h"
 #include "Microsoft.UI.Composition.Interactions.h"
 #include "Microsoft.UI.Composition.Scenes.h"
 #include "Microsoft.UI.Composition.SystemBackdrops.h"
@@ -50,6 +55,7 @@
 #include "Microsoft.UI.Dispatching.h"
 #include "Microsoft.UI.Input.h"
 #include "Microsoft.UI.Input.DragDrop.h"
+#include "Microsoft.UI.Input.Experimental.h"
 #include "Microsoft.UI.Input.Interop.h"
 #include "Microsoft.UI.System.h"
 #include "Microsoft.UI.Text.h"
@@ -78,6 +84,9 @@
 #include "Microsoft.UI.Xaml.Shapes.h"
 #include "Microsoft.UI.Xaml.XamlTypeInfo.h"
 #include "Microsoft.Web.WebView2.Core.h"
+#include "Microsoft.Windows.AI.h"
+#include "Microsoft.Windows.AI.ContentModeration.h"
+#include "Microsoft.Windows.AI.Generative.h"
 #include "Microsoft.Windows.AppLifecycle.h"
 #include "Microsoft.Windows.AppNotifications.h"
 #include "Microsoft.Windows.AppNotifications.Builder.h"
@@ -92,13 +101,17 @@
 #include "Microsoft.Windows.Media.Capture.h"
 #include "Microsoft.Windows.PushNotifications.h"
 #include "Microsoft.Windows.Security.AccessControl.h"
+#include "Microsoft.Windows.SemanticSearch.h"
 #include "Microsoft.Windows.Storage.h"
+#include "Microsoft.Windows.Storage.Pickers.h"
 #include "Microsoft.Windows.System.h"
 #include "Microsoft.Windows.System.Power.h"
+#include "Microsoft.Windows.Vision.h"
 #include "Microsoft.Windows.Widgets.h"
 #include "Microsoft.Windows.Widgets.Feeds.Providers.h"
 #include "Microsoft.Windows.Widgets.Notifications.h"
 #include "Microsoft.Windows.Widgets.Providers.h"
+#include "Microsoft.Windows.Workloads.h"
 #include "Windows.AI.MachineLearning.h"
 #include "Windows.AI.MachineLearning.Preview.h"
 #include "Windows.ApplicationModel.h"

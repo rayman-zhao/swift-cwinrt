@@ -7,6 +7,7 @@
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
 #include "Microsoft.UI.h"
+#include "Microsoft.UI.Composition.h"
 #include "Microsoft.UI.Content.h"
 #include "Microsoft.UI.Dispatching.h"
 #include "Windows.Graphics.h"
@@ -232,6 +233,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3 __x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissAction_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissAction_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissAction __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissAction;
@@ -243,6 +250,12 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2 __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissEventArgs_FWD_DEFINED__
@@ -286,11 +299,23 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2 __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2 __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIInputPreTranslateKeyboardSource_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPreTranslateKeyboardSource_FWD_DEFINED__
@@ -417,6 +442,12 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CInput_CITappedEventArgs __x_ABI_CMicrosoft_CUI_CInput_CITappedEventArgs;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CInput_CITappedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs __x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CInput_CIWindowRectChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CInput_CIWindowRectChangedEventArgs_FWD_DEFINED__
@@ -1507,6 +1538,46 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CPointerEventArgs_INTERFACE_DEFINED__
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs* This,
+        __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource* sender,
+        __x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs_INTERFACE_DEFINED__
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CIVisual_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CComposition_CIVisual_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CIVisual __x_ABI_CMicrosoft_CUI_CComposition_CIVisual;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CComposition_CIVisual_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CContent_CIContentIsland_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CContent_CIContentIsland_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CContent_CIContentIsland __x_ABI_CMicrosoft_CUI_CContent_CIContentIsland;
@@ -1579,6 +1650,8 @@ typedef enum __x_ABI_CMicrosoft_CUI_CInput_CHoldingState __x_ABI_CMicrosoft_CUI_
 
 typedef enum __x_ABI_CMicrosoft_CUI_CInput_CInputActivationState __x_ABI_CMicrosoft_CUI_CInput_CInputActivationState;
 
+typedef enum __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior;
+
 typedef enum __x_ABI_CMicrosoft_CUI_CInput_CInputPointerSourceDeviceKinds __x_ABI_CMicrosoft_CUI_CInput_CInputPointerSourceDeviceKinds;
 
 typedef enum __x_ABI_CMicrosoft_CUI_CInput_CInputSystemCursorShape __x_ABI_CMicrosoft_CUI_CInput_CInputSystemCursorShape;
@@ -1600,6 +1673,8 @@ typedef struct __x_ABI_CMicrosoft_CUI_CInput_CManipulationDelta __x_ABI_CMicroso
 typedef struct __x_ABI_CMicrosoft_CUI_CInput_CManipulationVelocities __x_ABI_CMicrosoft_CUI_CInput_CManipulationVelocities;
 
 typedef struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus;
+
+typedef struct __x_ABI_CMicrosoft_CUI_CInput_CProximityEvaluation __x_ABI_CMicrosoft_CUI_CInput_CProximityEvaluation;
 
 enum __x_ABI_CMicrosoft_CUI_CInput_CCrossSlidingState
     {
@@ -1673,6 +1748,23 @@ enum __x_ABI_CMicrosoft_CUI_CInput_CInputActivationState
     __x_ABI_CMicrosoft_CUI_CInput_CInputActivationState_Deactivated = 1,
     __x_ABI_CMicrosoft_CUI_CInput_CInputActivationState_Activated = 2,
 };
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+enum __x_ABI_CMicrosoft_CUI_CInput_CInputLayoutPolicy
+    {
+        __x_ABI_CMicrosoft_CUI_CInput_CInputLayoutPolicy_LeftToRight = 0,
+    __x_ABI_CMicrosoft_CUI_CInput_CInputLayoutPolicy_RightToLeft = 1,
+};
+#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+enum __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior
+    {
+        __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior_Default = 0,
+    __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior_Activate = 1,
+    __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior_NoActivate = 3,
+};
+#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
 enum __x_ABI_CMicrosoft_CUI_CInput_CInputPointerSourceDeviceKinds
     {
@@ -1791,6 +1883,14 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     boolean WasKeyDown;
     boolean IsKeyReleased;
 };
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+struct __x_ABI_CMicrosoft_CUI_CInput_CProximityEvaluation
+    {
+        INT32 Score;
+    struct __x_ABI_CWindows_CFoundation_CPoint AdjustedPoint;
+};
+#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CICharacterReceivedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CICharacterReceivedEventArgs_INTERFACE_DEFINED__
@@ -3229,6 +3329,42 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics2;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics2_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForWindowId)(__x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3* This,
+        struct __x_ABI_CMicrosoft_CUI_CWindowId windowId,
+        __x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSource** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputKeyboardSourceStatics3_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissAction_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissAction_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionVtbl
@@ -3299,6 +3435,42 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForIsland)(__x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CContent_CIContentIsland* content,
+        __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissAction** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissActionStatics2_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputLightDismissEventArgsVtbl
@@ -3650,6 +3822,56 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* TrySetDeviceKinds)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+        enum __x_ABI_CMicrosoft_CUI_CInput_CInputPointerSourceDeviceKinds DeviceKinds,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* get_ActivationBehavior)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+        enum __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior* value);
+    HRESULT (STDMETHODCALLTYPE* put_ActivationBehavior)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+        enum __x_ABI_CMicrosoft_CUI_CInput_CInputPointerActivationBehavior value);
+    HRESULT (STDMETHODCALLTYPE* add_DirectManipulationHitTest)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CPointerEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_DirectManipulationHitTest)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_TouchHitTesting)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CUI__CInput__CInputPointerSource___x_ABI_CMicrosoft__CUI__CInput__CTouchHitTestingEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_TouchHitTesting)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource2_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStaticsVtbl
@@ -3684,6 +3906,47 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForVisual)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CComposition_CIVisual* visual,
+        __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource** result);
+    HRESULT (STDMETHODCALLTYPE* GetForWindowId)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This,
+        struct __x_ABI_CMicrosoft_CUI_CWindowId windowId,
+        __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSource** result);
+    HRESULT (STDMETHODCALLTYPE* RemoveForVisual)(__x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CComposition_CIVisual* visual);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPointerSourceStatics2_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIInputPreTranslateKeyboardSource_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CIInputPreTranslateKeyboardSource_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIInputPreTranslateKeyboardSourceVtbl
@@ -4521,6 +4784,58 @@ struct __x_ABI_CMicrosoft_CUI_CInput_CPhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CITappedEventArgs;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CITappedEventArgs_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_BoundingBox)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        struct __x_ABI_CWindows_CFoundation_CRect* value);
+    HRESULT (STDMETHODCALLTYPE* get_Handled)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_Handled)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_Point)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        struct __x_ABI_CWindows_CFoundation_CPoint* value);
+    HRESULT (STDMETHODCALLTYPE* GetProximityEvaluation)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        struct __x_ABI_CMicrosoft_CUI_CInput_CProximityEvaluation* result);
+    HRESULT (STDMETHODCALLTYPE* SetProximityEvaluation)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        struct __x_ABI_CMicrosoft_CUI_CInput_CProximityEvaluation proximityEvaluation);
+    HRESULT (STDMETHODCALLTYPE* EvaluateProximityToRect)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        struct __x_ABI_CWindows_CFoundation_CRect controlBoundingBox,
+        struct __x_ABI_CMicrosoft_CUI_CInput_CProximityEvaluation* result);
+    HRESULT (STDMETHODCALLTYPE* EvaluateProximityToPolygon)(__x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs* This,
+        UINT32 controlVerticesLength,
+        struct __x_ABI_CWindows_CFoundation_CPoint* controlVertices,
+        struct __x_ABI_CMicrosoft_CUI_CInput_CProximityEvaluation* result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgsVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CInput_CITouchHitTestingEventArgs_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CInput_CIWindowRectChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CInput_CIWindowRectChangedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CInput_CIWindowRectChangedEventArgsVtbl

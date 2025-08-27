@@ -17,6 +17,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2 __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilderStatics_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilderStatics_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilderStatics __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilderStatics;
@@ -28,6 +34,12 @@
     typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2 __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButtonFactory_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButtonFactory_FWD_DEFINED__
@@ -311,6 +323,8 @@ typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundati
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationAudioLooping __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationAudioLooping;
 
+typedef enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonSettingStyle __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonSettingStyle;
+
 typedef enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonStyle __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonStyle;
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationDuration __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationDuration;
@@ -326,6 +340,15 @@ enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationAudi
         __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationAudioLooping_None = 0,
     __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationAudioLooping_Loop = 1,
 };
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonSettingStyle
+    {
+        __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonSettingStyle_None = 0,
+    __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonSettingStyle_VideoCallConfig = 1,
+    __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonSettingStyle_AudioCallConfig = 2,
+};
+#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
 enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonStyle
     {
@@ -514,6 +537,41 @@ enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationSoun
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* AddCameraPreview)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2* This,
+        __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilder2_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilderStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilderStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationBuilderStaticsVtbl
@@ -639,6 +697,42 @@ enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationSoun
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* SetSettingStyle)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2* This,
+        enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CAppNotificationButtonSettingStyle value,
+        __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButton2_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButtonFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButtonFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CBuilder_CIAppNotificationButtonFactoryVtbl

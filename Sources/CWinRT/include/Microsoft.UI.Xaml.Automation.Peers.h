@@ -471,6 +471,18 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInfoBarAutomationPeerFactory_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIItemAutomationPeer_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIItemAutomationPeer_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIItemAutomationPeer __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIItemAutomationPeer;
@@ -764,6 +776,18 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CINumberBoxAutomationPeerFactory __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CINumberBoxAutomationPeerFactory;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CINumberBoxAutomationPeerFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPasswordBoxAutomationPeer_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPasswordBoxAutomationPeer_FWD_DEFINED__
@@ -2059,6 +2083,12 @@ typedef enum __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CAutomationTextEditChangeT
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInfoBar_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInkCanvas_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInkCanvas_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInkCanvas __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInkCanvas;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInkCanvas_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIItemContainer_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIItemContainer_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIItemContainer __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIItemContainer;
@@ -2178,6 +2208,12 @@ typedef enum __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CAutomationTextEditChangeT
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINumberBox __x_ABI_CMicrosoft_CUI_CXaml_CControls_CINumberBox;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CINumberBox_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPagerControl_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPagerControl_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPagerControl __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPagerControl;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPagerControl_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPasswordBox_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPasswordBox_FWD_DEFINED__
@@ -2556,6 +2592,9 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CAutomationEvents
     __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CAutomationEvents_ConversionTargetChanged = 27,
     __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CAutomationEvents_TextEditTextChanged = 28,
     __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CAutomationEvents_LayoutInvalidated = 29,
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CAutomationEvents_Notification = 30,
+#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 };
 
 enum __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CAutomationHeadingLevel
@@ -5453,6 +5492,77 @@ struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CRawElementProviderRuntim
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInfoBarAutomationPeerFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInfoBarAutomationPeerFactory_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIInkCanvas* owner,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeer** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactoryVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIInkCanvasAutomationPeerFactory_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIItemAutomationPeer_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIItemAutomationPeer_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIItemAutomationPeerVtbl
@@ -7095,6 +7205,77 @@ struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CRawElementProviderRuntim
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CINumberBoxAutomationPeerFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CINumberBoxAutomationPeerFactory_INTERFACE_DEFINED__) */
     
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
+#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CIPagerControl* owner,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeer** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactoryVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPagerControlAutomationPeerFactory_INTERFACE_DEFINED__) */
+    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPasswordBoxAutomationPeer_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPasswordBoxAutomationPeer_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CAutomation_CPeers_CIPasswordBoxAutomationPeerVtbl
