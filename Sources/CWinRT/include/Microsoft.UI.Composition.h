@@ -413,12 +413,6 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNineGridBrush_FWD_DEFINED__
 
-#ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral __x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral_FWD_DEFINED__
-
 #ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionObject_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionObject_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CICompositionObject __x_ABI_CMicrosoft_CUI_CComposition_CICompositionObject;
@@ -766,24 +760,6 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CIElasticEasingFunction __x_ABI_CMicrosoft_CUI_CComposition_CIElasticEasingFunction;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CComposition_CIElasticEasingFunction_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CComposition_CIExponentialEasingFunction_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CComposition_CIExponentialEasingFunction_FWD_DEFINED__
@@ -2982,8 +2958,6 @@ typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionGradientExtendMode 
 
 typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionMappingMode __x_ABI_CMicrosoft_CUI_CComposition_CCompositionMappingMode;
 
-typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionProjectedShadowDrawOrder __x_ABI_CMicrosoft_CUI_CComposition_CCompositionProjectedShadowDrawOrder;
-
 typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStretch __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStretch;
 
 typedef enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStrokeCap __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStrokeCap;
@@ -3125,14 +3099,6 @@ enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionMappingMode
         __x_ABI_CMicrosoft_CUI_CComposition_CCompositionMappingMode_Absolute = 0,
     __x_ABI_CMicrosoft_CUI_CComposition_CCompositionMappingMode_Relative = 1,
 };
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionProjectedShadowDrawOrder
-    {
-        __x_ABI_CMicrosoft_CUI_CComposition_CCompositionProjectedShadowDrawOrder_PostChildren = 0,
-    __x_ABI_CMicrosoft_CUI_CComposition_CCompositionProjectedShadowDrawOrder_PreChildren = 1,
-};
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
 enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStretch
     {
@@ -5691,40 +5657,6 @@ enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CICompositionNineGridBrush;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNineGridBrush_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferralVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* Complete)(__x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral* This);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferralVtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferralVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionNotificationDeferral_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CICompositionObject_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CComposition_CICompositionObject_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CComposition_CICompositionObjectVtbl
@@ -8138,133 +8070,6 @@ enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionStrokeLineJoin
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CIElasticEasingFunction;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIElasticEasingFunction_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_MaxOpacity)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-        FLOAT* value);
-    HRESULT (STDMETHODCALLTYPE* put_MaxOpacity)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-        FLOAT value);
-    HRESULT (STDMETHODCALLTYPE* get_MinOpacity)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-        FLOAT* value);
-    HRESULT (STDMETHODCALLTYPE* put_MinOpacity)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-        FLOAT value);
-    HRESULT (STDMETHODCALLTYPE* get_OpacityFalloff)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-        FLOAT* value);
-    HRESULT (STDMETHODCALLTYPE* put_OpacityFalloff)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow* This,
-        FLOAT value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowVtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadow_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCasterVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_AncestorClip)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-        __x_ABI_CMicrosoft_CUI_CComposition_CIVisual** value);
-    HRESULT (STDMETHODCALLTYPE* put_AncestorClip)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-        __x_ABI_CMicrosoft_CUI_CComposition_CIVisual* value);
-    HRESULT (STDMETHODCALLTYPE* get_Mask)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-        __x_ABI_CMicrosoft_CUI_CComposition_CICompositionBrush** value);
-    HRESULT (STDMETHODCALLTYPE* put_Mask)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster* This,
-        __x_ABI_CMicrosoft_CUI_CComposition_CICompositionBrush* value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCasterVtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCasterVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowCaster_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiverVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_DrawOrder)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-        enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionProjectedShadowDrawOrder* value);
-    HRESULT (STDMETHODCALLTYPE* put_DrawOrder)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-        enum __x_ABI_CMicrosoft_CUI_CComposition_CCompositionProjectedShadowDrawOrder value);
-    HRESULT (STDMETHODCALLTYPE* get_Mask)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-        __x_ABI_CMicrosoft_CUI_CComposition_CICompositionBrush** value);
-    HRESULT (STDMETHODCALLTYPE* put_Mask)(__x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver* This,
-        __x_ABI_CMicrosoft_CUI_CComposition_CICompositionBrush* value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiverVtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiverVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIExpCompositionProjectedShadowReceiver_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CUI_CComposition_CIExponentialEasingFunction_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CComposition_CIExponentialEasingFunction_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CComposition_CIExponentialEasingFunctionVtbl

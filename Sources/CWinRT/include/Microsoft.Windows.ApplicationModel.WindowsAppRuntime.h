@@ -35,12 +35,6 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics2_FWD_DEFINED__
 
-#ifndef ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3 __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3;
-
-#endif // ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3_FWD_DEFINED__
-
 #ifndef ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResult_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResult_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResult __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResult;
@@ -290,9 +284,6 @@ enum __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CDeploymen
     __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CDeploymentStatus_Ok = 1,
     __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CDeploymentStatus_PackageInstallRequired = 2,
     __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CDeploymentStatus_PackageInstallFailed = 3,
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-    __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CDeploymentStatus_PackageRepairFailed = 4,
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 };
 
 enum __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CRuntimeCompatibilityChange
@@ -446,41 +437,6 @@ struct __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CWindows
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics2;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics2_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3Vtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* Repair)(__x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3* This,
-        __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResult** result);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3Vtbl;
-
-    interface __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3Vtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3;
-#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentManagerStatics3_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CIDeploymentResultVtbl

@@ -7,7 +7,6 @@
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
 #include "Microsoft.UI.h"
-#include "Windows.Storage.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
 
@@ -66,7 +65,6 @@
 
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult;
 
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 #if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
 
@@ -108,9 +106,7 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicroso
 
     
     #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
 
@@ -142,11 +138,9 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicroso
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
+    
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
 
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 #if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
 
@@ -188,9 +182,7 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicroso
 
     
     #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
 
@@ -222,9 +214,7 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicroso
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
 
@@ -270,9 +260,7 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicroso
 
     
     #endif // ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
 
@@ -310,9 +298,7 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicroso
 
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
 
@@ -362,11 +348,9 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CMicroso
 
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
+    
 typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult;
 
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 #if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
 
@@ -408,9 +392,7 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVec
 
     
     #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
 
@@ -442,8 +424,7 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVec
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
+    
 #if !defined(____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
 
@@ -881,41 +862,29 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
 
-#ifndef ____x_ABI_CWindows_CStorage_CIStorageFile_FWD_DEFINED__
-#define ____x_ABI_CWindows_CStorage_CIStorageFile_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CStorage_CIStorageFile __x_ABI_CWindows_CStorage_CIStorageFile;
-
-#endif // ____x_ABI_CWindows_CStorage_CIStorageFile_FWD_DEFINED__
-
 typedef enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId;
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode;
 
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId
     {
         __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_DocumentsLibrary = 0,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_ComputerFolder = 1,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_Desktop = 2,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_Downloads = 3,
-    __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_HomeGroup = 4,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_MusicLibrary = 5,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_PicturesLibrary = 6,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_VideosLibrary = 7,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_Objects3D = 8,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId_Unspecified = 9,
 };
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     {
         __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode_List = 0,
     __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode_Thumbnail = 1,
 };
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerVtbl
@@ -938,10 +907,6 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode* value);
     HRESULT (STDMETHODCALLTYPE* put_ViewMode)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker* This,
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode value);
-    HRESULT (STDMETHODCALLTYPE* get_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* put_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker* This,
-        HSTRING value);
     HRESULT (STDMETHODCALLTYPE* get_SuggestedStartLocation)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker* This,
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId* value);
     HRESULT (STDMETHODCALLTYPE* put_SuggestedStartLocation)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker* This,
@@ -968,9 +933,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactoryVtbl
@@ -1004,9 +967,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerVtbl
@@ -1025,11 +986,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
             HSTRING* className);
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
             TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* put_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
-        HSTRING value);
-    HRESULT (STDMETHODCALLTYPE* get_SuggestedStartLocation)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
+        HRESULT (STDMETHODCALLTYPE* get_SuggestedStartLocation)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId* value);
     HRESULT (STDMETHODCALLTYPE* put_SuggestedStartLocation)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId value);
@@ -1043,13 +1000,13 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
         HSTRING* value);
     HRESULT (STDMETHODCALLTYPE* put_DefaultFileExtension)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
         HSTRING value);
-    HRESULT (STDMETHODCALLTYPE* get_SuggestedSaveFile)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
-        __x_ABI_CWindows_CStorage_CIStorageFile** value);
-    HRESULT (STDMETHODCALLTYPE* put_SuggestedSaveFile)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
-        __x_ABI_CWindows_CStorage_CIStorageFile* value);
     HRESULT (STDMETHODCALLTYPE* get_SuggestedFileName)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
         HSTRING* value);
     HRESULT (STDMETHODCALLTYPE* put_SuggestedFileName)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_SuggestedFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SuggestedFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
         HSTRING value);
     HRESULT (STDMETHODCALLTYPE* PickSaveFileAsync)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker* This,
         __x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult** operation);
@@ -1065,9 +1022,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactoryVtbl
@@ -1101,9 +1056,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerVtbl
@@ -1126,10 +1079,6 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode* value);
     HRESULT (STDMETHODCALLTYPE* put_ViewMode)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode value);
-    HRESULT (STDMETHODCALLTYPE* get_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* put_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
-        HSTRING value);
     HRESULT (STDMETHODCALLTYPE* get_SuggestedStartLocation)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
         enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerLocationId* value);
     HRESULT (STDMETHODCALLTYPE* put_SuggestedStartLocation)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
@@ -1138,8 +1087,6 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
         HSTRING* value);
     HRESULT (STDMETHODCALLTYPE* put_CommitButtonText)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
         HSTRING value);
-    HRESULT (STDMETHODCALLTYPE* get_FileTypeFilter)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
-        __x_ABI_C__FIVector_1_HSTRING** value);
     HRESULT (STDMETHODCALLTYPE* PickSingleFolderAsync)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker* This,
         __x_ABI_C__FIAsyncOperation_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult** operation);
 
@@ -1154,9 +1101,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactoryVtbl
@@ -1190,9 +1135,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFileResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFileResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFileResultVtbl
@@ -1225,9 +1168,7 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFileResult;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFileResult_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResultVtbl
@@ -1260,5 +1201,4 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
+    

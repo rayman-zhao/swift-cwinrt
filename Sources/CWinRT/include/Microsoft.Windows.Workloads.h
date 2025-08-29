@@ -12,12 +12,10 @@
 
 // Collection interface definitions
 
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 enum __x_ABI_CMicrosoft_CWindows_CWorkloads_CWorkloadPriority
     {
         __x_ABI_CMicrosoft_CWindows_CWorkloads_CWorkloadPriority_Undefined = 0,
     __x_ABI_CMicrosoft_CWindows_CWorkloads_CWorkloadPriority_Background = 1,
     __x_ABI_CMicrosoft_CWindows_CWorkloads_CWorkloadPriority_Foreground = 9,
 };
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 

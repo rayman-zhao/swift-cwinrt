@@ -30,7 +30,7 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyResultState
 enum __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState
     {
         __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState_Ready = 0,
-    __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState_EnsureNeeded = 1,
+    __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState_NotReady = 1,
     __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState_NotSupportedOnCurrentSystem = 2,
     __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState_DisabledByUser = 3,
 };

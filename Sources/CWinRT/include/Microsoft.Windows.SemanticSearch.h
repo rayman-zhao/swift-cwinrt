@@ -46,7 +46,7 @@
         HRESULT (STDMETHODCALLTYPE* GetValues)(__x_ABI_CMicrosoft_CWindows_CSemanticSearch_CIEmbeddingVector* This,
         UINT32 valuesLength,
         FLOAT* values);
-    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_CMicrosoft_CWindows_CSemanticSearch_CIEmbeddingVector* This,
+    HRESULT (STDMETHODCALLTYPE* get_Count)(__x_ABI_CMicrosoft_CWindows_CSemanticSearch_CIEmbeddingVector* This,
         UINT32* value);
     HRESULT (STDMETHODCALLTYPE* get_VectorSpaceId)(__x_ABI_CMicrosoft_CWindows_CSemanticSearch_CIEmbeddingVector* This,
         GUID* value);

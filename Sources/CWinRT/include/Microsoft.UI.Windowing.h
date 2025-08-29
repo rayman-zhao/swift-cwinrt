@@ -56,24 +56,6 @@
 
 #endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowClosingEventArgs_FWD_DEFINED__
 
-#ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics_FWD_DEFINED__
-
 #ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPresenter_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPresenter_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPresenter __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPresenter;
@@ -97,12 +79,6 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics2 __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics2;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics2_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3 __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowTitleBar_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowTitleBar_FWD_DEFINED__
@@ -157,12 +133,6 @@
     typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics2 __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics2;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics2_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3 __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3;
-
-#endif // ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaWatcher_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaWatcher_FWD_DEFINED__
@@ -349,44 +319,6 @@
 
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CUI__CWindowing__CDisplayArea_INTERFACE_DEFINED__
-    
-#if !defined(____x_ABI_C__FIReference_1_GUID_INTERFACE_DEFINED__)
-    #define ____x_ABI_C__FIReference_1_GUID_INTERFACE_DEFINED__
-
-    typedef interface __x_ABI_C__FIReference_1_GUID __x_ABI_C__FIReference_1_GUID;
-
-    //  Declare the parameterized interface IID.
-    EXTERN_C const IID IID___x_ABI_C__FIReference_1_GUID;
-
-    typedef struct __x_ABI_C__FIReference_1_GUIDVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_GUID* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_GUID* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_GUID* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_GUID* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_GUID* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_GUID* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_GUID* This,
-        GUID* result);
-
-        END_INTERFACE
-    } __x_ABI_C__FIReference_1_GUIDVtbl;
-
-    interface __x_ABI_C__FIReference_1_GUID
-    {
-        CONST_VTBL struct __x_ABI_C__FIReference_1_GUIDVtbl* lpVtbl;
-    };
-
-    
-    #endif // ____x_ABI_C__FIReference_1_GUID_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__
@@ -662,10 +594,6 @@ typedef enum __x_ABI_CMicrosoft_CUI_CWindowing_CIconShowOptions __x_ABI_CMicroso
 
 typedef enum __x_ABI_CMicrosoft_CUI_CWindowing_COverlappedPresenterState __x_ABI_CMicrosoft_CUI_CWindowing_COverlappedPresenterState;
 
-typedef enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo;
-
-typedef enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior;
-
 typedef enum __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarHeightOption __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarHeightOption;
 
 typedef enum __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarTheme __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarTheme;
@@ -714,30 +642,6 @@ enum __x_ABI_CMicrosoft_CUI_CWindowing_COverlappedPresenterState
     __x_ABI_CMicrosoft_CUI_CWindowing_COverlappedPresenterState_Minimized = 1,
     __x_ABI_CMicrosoft_CUI_CWindowing_COverlappedPresenterState_Restored = 2,
 };
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo
-    {
-        __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo_None = 0,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo_RestoreToMaximized = 0x2,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo_RestoreToArranged = 0x8,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo_Arranged = 0x10,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo_Resizable = 0x20,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo_FullScreen = 0x40,
-};
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior
-    {
-        __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior_None = 0,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior_AllowShowMaximized = 0x1,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior_AllowShowFullScreen = 0x2,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior_AllowShowArranged = 0x4,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior_UseStartupInfoForFirstWindow = 0x8,
-    __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior_All = 0xffffffff,
-};
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 
 enum __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarHeightOption
     {
@@ -1071,143 +975,6 @@ enum __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarTheme
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowClosingEventArgs;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowClosingEventArgs_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimentalVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_PersistedStateId)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-        __x_ABI_C__FIReference_1_GUID** value);
-    HRESULT (STDMETHODCALLTYPE* put_PersistedStateId)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-        __x_ABI_C__FIReference_1_GUID* value);
-    HRESULT (STDMETHODCALLTYPE* get_PlacementRestorationBehavior)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-        enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior* value);
-    HRESULT (STDMETHODCALLTYPE* put_PlacementRestorationBehavior)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-        enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementRestorationBehavior value);
-    HRESULT (STDMETHODCALLTYPE* GetCurrentPlacement)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-        __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails** result);
-    HRESULT (STDMETHODCALLTYPE* SaveCurrentPlacement)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This);
-    HRESULT (STDMETHODCALLTYPE* SetCurrentPlacement)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental* This,
-        __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* placementDetails,
-        boolean isFirstWindow,
-        boolean* result);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimentalVtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimentalVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowExperimental_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_NormalRect)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-        struct __x_ABI_CWindows_CGraphics_CRectInt32* value);
-    HRESULT (STDMETHODCALLTYPE* get_WorkArea)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-        struct __x_ABI_CWindows_CGraphics_CRectInt32* value);
-    HRESULT (STDMETHODCALLTYPE* get_Dpi)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-        INT32* value);
-    HRESULT (STDMETHODCALLTYPE* get_ShowCmd)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-        INT32* value);
-    HRESULT (STDMETHODCALLTYPE* get_ArrangeRect)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-        struct __x_ABI_CWindows_CGraphics_CRectInt32* value);
-    HRESULT (STDMETHODCALLTYPE* get_DeviceName)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* get_Flags)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails* This,
-        enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo* value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsVtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* Create)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics* This,
-        struct __x_ABI_CWindows_CGraphics_CRectInt32 normalRect,
-        struct __x_ABI_CWindows_CGraphics_CRectInt32 workArea,
-        INT32 dpi,
-        INT32 showCmd,
-        struct __x_ABI_CWindows_CGraphics_CRectInt32 arrangeRect,
-        enum __x_ABI_CMicrosoft_CUI_CWindowing_CPlacementInfo flags,
-        HSTRING deviceName,
-        __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetails** result);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStaticsVtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPlacementDetailsStatics_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPresenter_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPresenter_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowPresenterVtbl
@@ -1351,40 +1118,6 @@ enum __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarTheme
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics2;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics2_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3Vtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* SaveCurrentPlacementForAllPersistedStateIds)(__x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3* This);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3Vtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3Vtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowStatics3_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowTitleBar_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowTitleBar_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIAppWindowTitleBarVtbl
@@ -1775,42 +1508,6 @@ enum __x_ABI_CMicrosoft_CUI_CWindowing_CTitleBarTheme
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics2;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics2_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3Vtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* GetMetricsFromWindowId)(__x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3* This,
-        struct __x_ABI_CMicrosoft_CUI_CWindowId windowId,
-        struct __x_ABI_CMicrosoft_CUI_CDisplayId* result);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3Vtbl;
-
-    interface __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3Vtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3;
-#endif /* !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaStatics3_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaWatcher_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaWatcher_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CWindowing_CIDisplayAreaWatcherVtbl

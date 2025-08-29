@@ -16,12 +16,6 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification_FWD_DEFINED__
 
-#ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2 __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2;
-
-#endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2_FWD_DEFINED__
-
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs;
@@ -33,18 +27,6 @@
     typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs2 __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs2;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs2_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig;
-
-#endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics;
-
-#endif // ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationFactory_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationFactory_FWD_DEFINED__
@@ -817,43 +799,6 @@ enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CAppNotificationSetting
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2Vtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_ConferencingConfig)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This,
-        __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig** value);
-    HRESULT (STDMETHODCALLTYPE* put_ConferencingConfig)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2* This,
-        __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2Vtbl;
-
-    interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2Vtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2;
-#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotification2_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgsVtbl
@@ -922,86 +867,6 @@ enum __x_ABI_CMicrosoft_CWindows_CAppNotifications_CAppNotificationSetting
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs2;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationActivatedEventArgs2_INTERFACE_DEFINED__) */
     
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_VideoDeviceId)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* put_VideoDeviceId)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-        HSTRING value);
-    HRESULT (STDMETHODCALLTYPE* get_AudioInputDeviceId)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* put_AudioInputDeviceId)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-        HSTRING value);
-    HRESULT (STDMETHODCALLTYPE* get_AudioOutputDeviceId)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* put_AudioOutputDeviceId)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig* This,
-        HSTRING value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigVtbl;
-
-    interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig;
-#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfig_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-#if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* IsCallingPreviewSupported)(__x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics* This,
-        boolean* result);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStaticsVtbl;
-
-    interface __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics;
-#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationConferencingConfigStatics_INTERFACE_DEFINED__) */
-    #endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
-
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAppNotifications_CIAppNotificationFactoryVtbl
