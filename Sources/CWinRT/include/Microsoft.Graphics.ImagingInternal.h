@@ -8,7 +8,6 @@
 #include "Windows.Foundation.h"
 #include "Microsoft.Windows.PrivateCommon.h"
 #include "Windows.Graphics.h"
-#include "Windows.Graphics.Imaging.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
 
@@ -24,24 +23,6 @@
     typedef interface __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDepthMapCreatorSession2 __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDepthMapCreatorSession2;
 
 #endif // ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDepthMapCreatorSession2_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult;
-
-#endif // ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace;
-
-#endif // ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace_FWD_DEFINED__
-
-#ifndef ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession;
-
-#endif // ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIImageObjectExtractorSession_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIImageObjectExtractorSession_FWD_DEFINED__
@@ -391,8 +372,6 @@ typedef struct __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CImageBufferViewData _
 
 #endif // ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
 
-typedef struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapBounds __x_ABI_CWindows_CGraphics_CImaging_CBitmapBounds;
-
 typedef struct __x_ABI_CWindows_CGraphics_CPointInt32 __x_ABI_CWindows_CGraphics_CPointInt32;
 
 typedef struct __x_ABI_CWindows_CGraphics_CRectInt32 __x_ABI_CWindows_CGraphics_CRectInt32;
@@ -497,108 +476,6 @@ struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CParallaxImageOptions
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDepthMapCreatorSession2;
 #endif /* !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDepthMapCreatorSession2_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResultVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_Faces)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult* This,
-        UINT32* valueLength,
-        __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace*** value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResultVtbl;
-
-    interface __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResultVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult;
-#endif /* !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFaceVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_FaceBoundingBox)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace* This,
-        struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapBounds* value);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFaceVtbl;
-
-    interface __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFaceVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace;
-#endif /* !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectedFace_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSessionVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* DetectFacesInRegion)(__x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession* This,
-        __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CIImageBufferResource* imageBufferResource,
-        struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapBounds region,
-        __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIDetectFacesResult** result);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSessionVtbl;
-
-    interface __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSessionVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession;
-#endif /* !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIFaceDetectorSession_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIImageObjectExtractorSession_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CGraphics_CImagingInternal_CIImageObjectExtractorSession_INTERFACE_DEFINED__

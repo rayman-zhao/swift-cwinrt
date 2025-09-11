@@ -31,12 +31,6 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel_FWD_DEFINED__
 
-#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_FWD_DEFINED__
-#define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_FWD_DEFINED__
-    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2 __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2;
-
-#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_FWD_DEFINED__
-
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext;
@@ -891,7 +885,8 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone
         __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone_Default = 0,
     __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone_General = 1,
     __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone_Casual = 2,
-    __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone_Formal = 3,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone_Concise = 3,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone_Formal = 4,
 };
 
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CIConversationItem_INTERFACE_DEFINED__)
@@ -1014,86 +1009,6 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_INTERFACE_DEFINED__)
-    #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2Vtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* GenerateResponseAsync)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        HSTRING prompt,
-        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING** operation);
-    HRESULT (STDMETHODCALLTYPE* GenerateResponseAsync2)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        HSTRING prompt,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions* options,
-        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING** operation);
-    HRESULT (STDMETHODCALLTYPE* GenerateResponseAsync3)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext* context,
-        HSTRING prompt,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions* options,
-        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING** operation);
-    HRESULT (STDMETHODCALLTYPE* GenerateResponseFromEmbeddingsAsync)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CAI__CFoundation__CEmbeddingVector* promptEmbedding,
-        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING** operation);
-    HRESULT (STDMETHODCALLTYPE* GenerateResponseFromEmbeddingsAsync2)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CAI__CFoundation__CEmbeddingVector* promptEmbedding,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions* options,
-        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING** operation);
-    HRESULT (STDMETHODCALLTYPE* GenerateResponseFromEmbeddingsAsync3)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext* context,
-        __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CAI__CFoundation__CEmbeddingVector* promptEmbedding,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions* options,
-        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING** operation);
-    HRESULT (STDMETHODCALLTYPE* GenerateEmbeddingVectors)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        HSTRING prompt,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelEmbeddingVectorResult** result);
-    HRESULT (STDMETHODCALLTYPE* GenerateEmbeddingVectors2)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        HSTRING prompt,
-        __x_ABI_CMicrosoft_CWindows_CAI_CContentSafety_CIContentFilterOptions* contentFilterOptions,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelEmbeddingVectorResult** result);
-    HRESULT (STDMETHODCALLTYPE* GetUsablePromptLength)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        HSTRING prompt,
-        UINT64* result);
-    HRESULT (STDMETHODCALLTYPE* GetUsablePromptLength2)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext* context,
-        HSTRING prompt,
-        UINT64* result);
-    HRESULT (STDMETHODCALLTYPE* GetVectorSpaceId)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        GUID* result);
-    HRESULT (STDMETHODCALLTYPE* CreateContext)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext** result);
-    HRESULT (STDMETHODCALLTYPE* CreateContext2)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        HSTRING systemPrompt,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext** result);
-    HRESULT (STDMETHODCALLTYPE* CreateContext3)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2* This,
-        HSTRING systemPrompt,
-        __x_ABI_CMicrosoft_CWindows_CAI_CContentSafety_CIContentFilterOptions* contentFilterOptions,
-        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext** result);
-
-        END_INTERFACE
-    } __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2Vtbl;
-
-    interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2
-    {
-        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2Vtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2;
-#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_INTERFACE_DEFINED__

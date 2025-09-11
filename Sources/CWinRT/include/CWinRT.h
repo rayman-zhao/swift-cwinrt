@@ -102,6 +102,7 @@
 #include "Microsoft.Windows.ApplicationModel.Resources.h"
 #include "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.h"
 #include "Microsoft.Windows.BadgeNotifications.h"
+#include "Microsoft.Windows.Foundation.h"
 #include "Microsoft.Windows.Globalization.h"
 #include "Microsoft.Windows.Internal.AI.ContentModeration.h"
 #include "Microsoft.Windows.Internal.AI.Generative.h"
