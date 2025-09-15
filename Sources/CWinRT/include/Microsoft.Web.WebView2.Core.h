@@ -208,6 +208,18 @@
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference;
@@ -333,6 +345,12 @@
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14;
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment2_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment2_FWD_DEFINED__
@@ -484,6 +502,18 @@
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame;
@@ -519,6 +549,12 @@
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6;
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_FWD_DEFINED__
@@ -1053,6 +1089,12 @@
     typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27;
 
 #endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28 __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28;
+
+#endif // ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_FWD_DEFINED__
@@ -5343,6 +5385,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Environment___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2BrowserProcessExitedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame_IInspectable_INTERFACE_DEFINED__
 
@@ -5438,6 +5512,38 @@ typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_C
 
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2DOMContentLoadedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame* sender,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationCompletedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2NavigationCompletedEventArgs_INTERFACE_DEFINED__
@@ -7792,6 +7898,76 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions2;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DefaultBackgroundColor)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This,
+        struct __x_ABI_CWindows_CUI_CColor* value);
+    HRESULT (STDMETHODCALLTYPE* put_DefaultBackgroundColor)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3* This,
+        struct __x_ABI_CWindows_CUI_CColor value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AllowHostInputProcessing)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowHostInputProcessing)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerOptions4_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReference_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2ControllerWindowReferenceVtbl
@@ -8629,6 +8805,39 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment14_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateFindOptions)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment15_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment2_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Environment2_INTERFACE_DEFINED__
@@ -9530,6 +9739,108 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FileSystemHandle_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ActiveMatchIndex)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* get_MatchCount)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* add_ActiveMatchIndexChanged)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ActiveMatchIndexChanged)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_MatchCountChanged)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Find_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_MatchCountChanged)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* StartAsync)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* options,
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
+    HRESULT (STDMETHODCALLTYPE* FindNext)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This);
+    HRESULT (STDMETHODCALLTYPE* FindPrevious)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This);
+    HRESULT (STDMETHODCALLTYPE* Stop)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find* This);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_FindTerm)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_FindTerm)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_IsCaseSensitive)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsCaseSensitive)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ShouldHighlightAllMatches)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ShouldHighlightAllMatches)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_ShouldMatchWord)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ShouldMatchWord)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* get_SuppressDefaultFindDialog)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_SuppressDefaultFindDialog)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptionsVtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FindOptions_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameVtbl
@@ -9779,6 +10090,42 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame6_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_FrameCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2Frame___x_ABI_CMicrosoft__CWeb__CWebView2__CCore__CCoreWebView2FrameCreatedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_FrameCreated)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Frame7_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2FrameCreatedEventArgs_INTERFACE_DEFINED__
@@ -13335,6 +13682,39 @@ struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27;
 #endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__27_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Find)(__x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28* This,
+        __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2Find** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28;
+#endif /* !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__28_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CICoreWebView2__3_INTERFACE_DEFINED__
