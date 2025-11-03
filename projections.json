@@ -37,6 +37,7 @@
     "Microsoft.UI.Xaml.Resources",
     "Microsoft.UI.Xaml.Shapes",
     "Microsoft.UI.Xaml.XamlTypeInfo",
+    "Microsoft.Windows.ApplicationModel.WindowsAppRuntime",
     "Microsoft.Windows.AppLifecycle",
     "Microsoft.Windows.System",
     "Microsoft.Windows.System.Power",
