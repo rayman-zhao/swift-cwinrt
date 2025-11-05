@@ -55,6 +55,7 @@
     "Windows.Devices.Input",
     "Windows.Foundation",
     "Windows.Foundation.Collections",
+    "Windows.Foundation.Metadata",
     "Windows.Foundation.Numerics",
     "Windows.Graphics",
     "Windows.Graphics.DirectX.Direct3D11",
