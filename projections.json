@@ -48,6 +48,7 @@
     "Windows.ApplicationModel",
     "Windows.ApplicationModel.Activation",
     "Windows.ApplicationModel.Core",
+    "Windows.ApplicationModel.Contacts",
     "Windows.ApplicationModel.DataTransfer",
     "Windows.ApplicationModel.DataTransfer.DragDrop",
     "Windows.Management.Deployment",
