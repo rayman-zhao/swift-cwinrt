@@ -66,6 +66,7 @@
     "Windows.Media.Core",
     "Windows.Media.Render",
     "Windows.Media.Playback",
+    "Windows.Services.Maps",
     "Windows.Storage.ApplicationData",
     "Windows.Storage.Streams",
     "Windows.Storage.Pickers",
