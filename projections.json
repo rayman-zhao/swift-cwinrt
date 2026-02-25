@@ -41,6 +41,7 @@
     "Microsoft.Web.WebView2.Core",
     "Microsoft.Windows.ApplicationModel.WindowsAppRuntime",
     "Microsoft.Windows.AppLifecycle",
+    "Microsoft.Windows.Storage.Pickers",
     "Microsoft.Windows.System",
     "Microsoft.Windows.System.Power",
     "Microsoft.Windows.Widgets",
