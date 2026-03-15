@@ -1747,7 +1747,7 @@ enum __x_ABI_CWindows_CApplicationModel_CResources_CCore_CResourceQualifierPersi
 
 struct __x_ABI_CWindows_CApplicationModel_CResources_CCore_CResourceLayoutInfo
     {
-        UINT32 MajorVersion;
+    UINT32 MajorVersion;
     UINT32 MinorVersion;
     UINT32 ResourceSubtreeCount;
     UINT32 NamedResourceCount;

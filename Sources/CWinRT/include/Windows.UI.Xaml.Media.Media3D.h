@@ -83,7 +83,7 @@ typedef struct __x_ABI_CWindows_CUI_CXaml_CMedia_CMedia3D_CMatrix3D __x_ABI_CWin
 
 struct __x_ABI_CWindows_CUI_CXaml_CMedia_CMedia3D_CMatrix3D
     {
-        DOUBLE M11;
+    DOUBLE M11;
     DOUBLE M12;
     DOUBLE M13;
     DOUBLE M14;

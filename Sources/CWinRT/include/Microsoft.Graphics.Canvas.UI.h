@@ -43,7 +43,7 @@ enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CUI_CCanvasCreateResourcesReason
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CUI_CCanvasTimingInformation
     {
-        INT64 UpdateCount;
+    INT64 UpdateCount;
     struct __x_ABI_CWindows_CFoundation_CTimeSpan TotalTime;
     struct __x_ABI_CWindows_CFoundation_CTimeSpan ElapsedTime;
     boolean IsRunningSlowly;

@@ -1347,7 +1347,7 @@ enum __x_ABI_CWindows_CGraphics_CImaging_CTiffCompressionMode
 
 struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapBounds
     {
-        UINT32 X;
+    UINT32 X;
     UINT32 Y;
     UINT32 Width;
     UINT32 Height;
@@ -1355,7 +1355,7 @@ struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapBounds
 
 struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapPlaneDescription
     {
-        INT32 StartIndex;
+    INT32 StartIndex;
     INT32 Width;
     INT32 Height;
     INT32 Stride;
@@ -1363,7 +1363,7 @@ struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapPlaneDescription
 
 struct __x_ABI_CWindows_CGraphics_CImaging_CBitmapSize
     {
-        UINT32 Width;
+    UINT32 Width;
     UINT32 Height;
 };
 

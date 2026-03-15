@@ -92,7 +92,7 @@ enum __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CPixelFormat
 
 struct __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CImageBufferData
     {
-        UINT32 height;
+    UINT32 height;
     UINT32 width;
     enum __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CPixelFormat pixelFormat;
     UINT32 rowStride;
@@ -102,7 +102,7 @@ struct __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CImageBufferData
 
 struct __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CImageBufferView
     {
-        UINT32 height;
+    UINT32 height;
     UINT32 width;
     enum __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CPixelFormat pixelFormat;
     UINT32 rowStride;
@@ -110,7 +110,7 @@ struct __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CImageBufferView
 
 struct __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CImageBufferViewData
     {
-        UINT64 targetProcessHandle;
+    UINT64 targetProcessHandle;
     UINT64 sourceProcessHandle;
 };
 

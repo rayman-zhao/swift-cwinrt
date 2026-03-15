@@ -465,7 +465,7 @@ enum __x_ABI_CWindows_CDevices_CI2c_CI2cTransferStatus
 
 struct __x_ABI_CWindows_CDevices_CI2c_CI2cTransferResult
     {
-        enum __x_ABI_CWindows_CDevices_CI2c_CI2cTransferStatus Status;
+    enum __x_ABI_CWindows_CDevices_CI2c_CI2cTransferStatus Status;
     UINT32 BytesTransferred;
 };
 

@@ -1148,7 +1148,7 @@ enum __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions
 
 struct __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgress
     {
-        enum __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgressState state;
+    enum __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgressState state;
     UINT32 percentage;
 };
 

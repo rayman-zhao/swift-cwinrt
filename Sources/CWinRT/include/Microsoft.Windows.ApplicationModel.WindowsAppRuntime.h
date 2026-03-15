@@ -293,7 +293,7 @@ enum __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CRuntimeCo
 
 struct __x_ABI_CMicrosoft_CWindows_CApplicationModel_CWindowsAppRuntime_CWindowsAppRuntimeVersion
     {
-        UINT32 Major;
+    UINT32 Major;
     UINT32 Minor;
     UINT32 Patch;
 };

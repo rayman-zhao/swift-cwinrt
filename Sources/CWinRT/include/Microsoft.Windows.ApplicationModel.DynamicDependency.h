@@ -89,7 +89,7 @@ enum __x_ABI_CMicrosoft_CWindows_CApplicationModel_CDynamicDependency_CPackageDe
 
 struct __x_ABI_CMicrosoft_CWindows_CApplicationModel_CDynamicDependency_CPackageDependencyContextId
     {
-        UINT64 Id;
+    UINT64 Id;
 };
 
 #if !defined(____x_ABI_CMicrosoft_CWindows_CApplicationModel_CDynamicDependency_CIAddPackageDependencyOptions_INTERFACE_DEFINED__)

@@ -4304,7 +4304,7 @@ enum __x_ABI_CWindows_CDevices_CPointOfService_CUnifiedPosPowerReportingType
 
 struct __x_ABI_CWindows_CDevices_CPointOfService_CSizeUInt32
     {
-        UINT32 Width;
+    UINT32 Width;
     UINT32 Height;
 };
 

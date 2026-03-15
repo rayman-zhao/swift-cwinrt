@@ -4210,7 +4210,7 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CMaps_CMapWatermarkMode
 
 struct __x_ABI_CWindows_CUI_CXaml_CControls_CMaps_CMapZoomLevelRange
     {
-        DOUBLE Min;
+    DOUBLE Min;
     DOUBLE Max;
 };
 

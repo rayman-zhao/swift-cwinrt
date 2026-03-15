@@ -231,7 +231,7 @@ enum __x_ABI_CMicrosoft_CWindows_CPushNotifications_CPushNotificationChannelStat
 
 struct __x_ABI_CMicrosoft_CWindows_CPushNotifications_CPushNotificationCreateChannelStatus
     {
-        enum __x_ABI_CMicrosoft_CWindows_CPushNotifications_CPushNotificationChannelStatus status;
+    enum __x_ABI_CMicrosoft_CWindows_CPushNotifications_CPushNotificationChannelStatus status;
     HRESULT extendedError;
     UINT32 retryCount;
 };

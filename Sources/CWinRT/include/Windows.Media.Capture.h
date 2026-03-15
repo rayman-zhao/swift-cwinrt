@@ -5171,7 +5171,7 @@ enum __x_ABI_CWindows_CMedia_CCapture_CVideoRotation
 
 struct __x_ABI_CWindows_CMedia_CCapture_CWhiteBalanceGain
     {
-        DOUBLE R;
+    DOUBLE R;
     DOUBLE G;
     DOUBLE B;
 };

@@ -1802,7 +1802,7 @@ enum __x_ABI_CWindows_CUI_CCore_CCoreWindowFlowDirection
 
 struct __x_ABI_CWindows_CUI_CCore_CCorePhysicalKeyStatus
     {
-        UINT32 RepeatCount;
+    UINT32 RepeatCount;
     UINT32 ScanCode;
     boolean IsExtendedKey;
     boolean IsMenuKeyDown;
@@ -1812,7 +1812,7 @@ struct __x_ABI_CWindows_CUI_CCore_CCorePhysicalKeyStatus
 
 struct __x_ABI_CWindows_CUI_CCore_CCoreProximityEvaluation
     {
-        INT32 Score;
+    INT32 Score;
     struct __x_ABI_CWindows_CFoundation_CPoint AdjustedPoint;
 };
 

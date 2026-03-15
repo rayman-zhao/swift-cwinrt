@@ -1130,7 +1130,7 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CUnderlineStyle
 
 struct __x_ABI_CMicrosoft_CUI_CXaml_CDocuments_CTextRange
     {
-        INT32 StartIndex;
+    INT32 StartIndex;
     INT32 Length;
 };
 

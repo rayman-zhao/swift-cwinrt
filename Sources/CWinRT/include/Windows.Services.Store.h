@@ -3293,7 +3293,7 @@ enum __x_ABI_CWindows_CServices_CStore_CStoreUninstallStorePackageStatus
 
 struct __x_ABI_CWindows_CServices_CStore_CStorePackageUpdateStatus
     {
-        HSTRING PackageFamilyName;
+    HSTRING PackageFamilyName;
     UINT64 PackageDownloadSizeInBytes;
     UINT64 PackageBytesDownloaded;
     DOUBLE PackageDownloadProgress;

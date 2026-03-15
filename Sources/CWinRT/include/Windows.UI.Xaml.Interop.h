@@ -94,7 +94,7 @@ enum __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeKind
 
 struct __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeName
     {
-        HSTRING Name;
+    HSTRING Name;
     enum __x_ABI_CWindows_CUI_CXaml_CInterop_CTypeKind Kind;
 };
 

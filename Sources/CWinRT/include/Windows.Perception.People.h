@@ -253,13 +253,13 @@ enum __x_ABI_CWindows_CPerception_CPeople_CJointPoseAccuracy
 
 struct __x_ABI_CWindows_CPerception_CPeople_CHandMeshVertex
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Position;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Position;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Normal;
 };
 
 struct __x_ABI_CWindows_CPerception_CPeople_CJointPose
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CQuaternion Orientation;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CQuaternion Orientation;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Position;
     FLOAT Radius;
     enum __x_ABI_CWindows_CPerception_CPeople_CJointPoseAccuracy Accuracy;

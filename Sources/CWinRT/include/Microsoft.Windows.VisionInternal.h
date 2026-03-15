@@ -563,7 +563,7 @@ enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionLabel
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox
     {
-        struct __x_ABI_CWindows_CFoundation_CPoint BottomLeft;
+    struct __x_ABI_CWindows_CFoundation_CPoint BottomLeft;
     struct __x_ABI_CWindows_CFoundation_CPoint BottomRight;
     struct __x_ABI_CWindows_CFoundation_CPoint TopLeft;
     struct __x_ABI_CWindows_CFoundation_CPoint TopRight;
@@ -571,26 +571,26 @@ struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedLineStyle
     {
-        FLOAT Confidence;
+    FLOAT Confidence;
     enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CDetectedLineStyle Name;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CLineInternal
     {
-        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox BoundingBox;
+    struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox BoundingBox;
     struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedLineStyle Style;
     UINT32 WordCount;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTextInternal
     {
-        FLOAT ImageAngle;
+    FLOAT ImageAngle;
     UINT32 LineCount;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionBoundingBox
     {
-        UINT32 Left;
+    UINT32 Left;
     UINT32 Top;
     UINT32 Right;
     UINT32 Bottom;
@@ -598,28 +598,28 @@ struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionBoundingBox
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionInternal
     {
-        struct __x_ABI_CMicrosoft_CWindows_CVision_CScreenRegionBoundingBox BoundingBox;
+    struct __x_ABI_CMicrosoft_CWindows_CVision_CScreenRegionBoundingBox BoundingBox;
     enum __x_ABI_CMicrosoft_CWindows_CVision_CScreenRegionLabel Label;
     FLOAT Score;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionInternal4
     {
-        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionBoundingBox BoundingBox;
+    struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionBoundingBox BoundingBox;
     enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionLabel Label;
     FLOAT Score;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTextRecognizerOptionsInternal
     {
-        enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions OrientationDetection;
+    enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions OrientationDetection;
     struct __x_ABI_CWindows_CGraphics_CSizeInt32 MaxAnalysisSize;
     UINT32 MaxLineCount;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CWordInternal
     {
-        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox BoundingBox;
+    struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox BoundingBox;
     FLOAT Confidence;
 };
 

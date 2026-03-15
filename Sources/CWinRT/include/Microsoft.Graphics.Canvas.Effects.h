@@ -1187,7 +1187,7 @@ enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CEffects_CTurbulenceEffectNoise
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CEffects_CColorManagementSimpleProfile
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 RedPrimary;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 RedPrimary;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 GreenPrimary;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 BluePrimary;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 WhitePointXZ;
@@ -1196,7 +1196,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CEffects_CColorManagementSimpleProfi
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CEffects_CMatrix5x4
     {
-        FLOAT M11;
+    FLOAT M11;
     FLOAT M12;
     FLOAT M13;
     FLOAT M14;

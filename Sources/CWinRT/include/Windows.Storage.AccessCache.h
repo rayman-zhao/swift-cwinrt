@@ -501,7 +501,7 @@ enum __x_ABI_CWindows_CStorage_CAccessCache_CRecentStorageItemVisibility
 
 struct __x_ABI_CWindows_CStorage_CAccessCache_CAccessListEntry
     {
-        HSTRING Token;
+    HSTRING Token;
     HSTRING Metadata;
 };
 

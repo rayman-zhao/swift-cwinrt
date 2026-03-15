@@ -1543,7 +1543,7 @@ enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayWireFormatPixelEncoding
 
 struct __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayPresentationRate
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CRational VerticalSyncRate;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CRational VerticalSyncRate;
     INT32 VerticalSyncsPerPresentation;
 };
 

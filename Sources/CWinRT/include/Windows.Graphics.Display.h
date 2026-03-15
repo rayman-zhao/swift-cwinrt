@@ -692,7 +692,7 @@ enum __x_ABI_CWindows_CGraphics_CDisplay_CResolutionScale
 
 struct __x_ABI_CWindows_CGraphics_CDisplay_CNitRange
     {
-        FLOAT MinNits;
+    FLOAT MinNits;
     FLOAT MaxNits;
     FLOAT StepSizeNits;
 };

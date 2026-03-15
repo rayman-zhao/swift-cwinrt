@@ -805,7 +805,7 @@ enum __x_ABI_CWindows_CUI_CText_CCore_CCoreTextTextUpdatingResult
 
 struct __x_ABI_CWindows_CUI_CText_CCore_CCoreTextRange
     {
-        INT32 StartCaretPosition;
+    INT32 StartCaretPosition;
     INT32 EndCaretPosition;
 };
 

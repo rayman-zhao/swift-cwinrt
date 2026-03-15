@@ -967,7 +967,7 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CLanguageModelSkill
 
 struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CTextContentFilterSeverityInternal
     {
-        enum __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentSafetySeverityLevelInternal HateContentSeverity;
+    enum __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentSafetySeverityLevelInternal HateContentSeverity;
     enum __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentSafetySeverityLevelInternal SexualContentSeverity;
     enum __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentSafetySeverityLevelInternal ViolentContentSeverity;
     enum __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentSafetySeverityLevelInternal SelfHarmContentSeverity;
@@ -975,19 +975,19 @@ struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CTextContentFilterSev
 
 struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentFilterOptionsInternal
     {
-        struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CTextContentFilterSeverityInternal PromptMaxAllowedSeverityLevel;
+    struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CTextContentFilterSeverityInternal PromptMaxAllowedSeverityLevel;
     struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CTextContentFilterSeverityInternal ResponseMaxAllowedSeverityLevel;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CLanguageModelInitialContextParam
     {
-        HSTRING SystemPrompt;
+    HSTRING SystemPrompt;
     UINT32 RandomGeneratorSeed;
 };
 
 struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CLanguageModelOptionsInternal
     {
-        UINT32 Skill;
+    UINT32 Skill;
     FLOAT Temp;
     FLOAT Top_p;
     UINT32 Top_k;

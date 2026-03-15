@@ -58,7 +58,7 @@ typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
 struct __x_ABI_CWindows_CUI_CColor
     {
-        BYTE A;
+    BYTE A;
     BYTE R;
     BYTE G;
     BYTE B;

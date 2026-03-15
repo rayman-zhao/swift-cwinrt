@@ -391,13 +391,13 @@ enum __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CParallaxAxisDirectionInterna
 
 struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CModelProperties
     {
-        INT32 EncodingSize;
+    INT32 EncodingSize;
     INT32 MaxPointCount;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CImagingInternal_CParallaxImageOptions
     {
-        UINT32 NumberOfFrames;
+    UINT32 NumberOfFrames;
     FLOAT RotationalRadius;
     UINT32 NumberOfLayers;
     FLOAT OffsetFactor;

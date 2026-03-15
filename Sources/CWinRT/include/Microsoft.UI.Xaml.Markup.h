@@ -404,14 +404,14 @@ typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CXmlnsDefinition __x_ABI_CMi
 
 struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CXamlBinaryWriterErrorInformation
     {
-        UINT32 InputStreamIndex;
+    UINT32 InputStreamIndex;
     UINT32 LineNumber;
     UINT32 LinePosition;
 };
 
 struct __x_ABI_CMicrosoft_CUI_CXaml_CMarkup_CXmlnsDefinition
     {
-        HSTRING XmlNamespace;
+    HSTRING XmlNamespace;
     HSTRING Namespace;
 };
 

@@ -1196,7 +1196,7 @@ enum __x_ABI_CWindows_CMedia_CSystemMediaTransportControlsProperty
 
 struct __x_ABI_CWindows_CMedia_CMediaTimeRange
     {
-        struct __x_ABI_CWindows_CFoundation_CTimeSpan Start;
+    struct __x_ABI_CWindows_CFoundation_CTimeSpan Start;
     struct __x_ABI_CWindows_CFoundation_CTimeSpan End;
 };
 

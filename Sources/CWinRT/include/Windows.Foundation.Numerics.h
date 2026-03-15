@@ -16,7 +16,7 @@ typedef struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 __x_ABI_CWindows_
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CMatrix3x2
     {
-        FLOAT M11;
+    FLOAT M11;
     FLOAT M12;
     FLOAT M21;
     FLOAT M22;
@@ -26,7 +26,7 @@ struct __x_ABI_CWindows_CFoundation_CNumerics_CMatrix3x2
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CMatrix4x4
     {
-        FLOAT M11;
+    FLOAT M11;
     FLOAT M12;
     FLOAT M13;
     FLOAT M14;
@@ -46,20 +46,20 @@ struct __x_ABI_CWindows_CFoundation_CNumerics_CMatrix4x4
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3
     {
-        FLOAT X;
+    FLOAT X;
     FLOAT Y;
     FLOAT Z;
 };
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CPlane
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Normal;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Normal;
     FLOAT D;
 };
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CQuaternion
     {
-        FLOAT X;
+    FLOAT X;
     FLOAT Y;
     FLOAT Z;
     FLOAT W;
@@ -67,19 +67,19 @@ struct __x_ABI_CWindows_CFoundation_CNumerics_CQuaternion
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CRational
     {
-        UINT32 Numerator;
+    UINT32 Numerator;
     UINT32 Denominator;
 };
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2
     {
-        FLOAT X;
+    FLOAT X;
     FLOAT Y;
 };
 
 struct __x_ABI_CWindows_CFoundation_CNumerics_CVector4
     {
-        FLOAT X;
+    FLOAT X;
     FLOAT Y;
     FLOAT Z;
     FLOAT W;

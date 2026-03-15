@@ -269,7 +269,7 @@ enum __x_ABI_CWindows_CGaming_CInput_CCustom_CXusbDeviceType
 
 struct __x_ABI_CWindows_CGaming_CInput_CCustom_CGameControllerVersionInfo
     {
-        UINT16 Major;
+    UINT16 Major;
     UINT16 Minor;
     UINT16 Build;
     UINT16 Revision;
@@ -277,7 +277,7 @@ struct __x_ABI_CWindows_CGaming_CInput_CCustom_CGameControllerVersionInfo
 
 struct __x_ABI_CWindows_CGaming_CInput_CCustom_CGipFirmwareUpdateProgress
     {
-        DOUBLE PercentCompleted;
+    DOUBLE PercentCompleted;
     UINT32 CurrentComponentId;
 };
 

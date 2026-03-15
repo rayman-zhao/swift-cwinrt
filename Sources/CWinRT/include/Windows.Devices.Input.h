@@ -397,13 +397,13 @@ enum __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType
 
 struct __x_ABI_CWindows_CDevices_CInput_CMouseDelta
     {
-        INT32 X;
+    INT32 X;
     INT32 Y;
 };
 
 struct __x_ABI_CWindows_CDevices_CInput_CPointerDeviceUsage
     {
-        UINT32 UsagePage;
+    UINT32 UsagePage;
     UINT32 Usage;
     INT32 MinLogical;
     INT32 MaxLogical;

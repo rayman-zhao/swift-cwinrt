@@ -2249,7 +2249,7 @@ enum __x_ABI_CWindows_CDevices_CSms_CSmsModemErrorCode
 
 struct __x_ABI_CWindows_CDevices_CSms_CSmsEncodedLength
     {
-        UINT32 SegmentCount;
+    UINT32 SegmentCount;
     UINT32 CharacterCountLastSegment;
     UINT32 CharactersPerSegment;
     UINT32 ByteCountLastSegment;

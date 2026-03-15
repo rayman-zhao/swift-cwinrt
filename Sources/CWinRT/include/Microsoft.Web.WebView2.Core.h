@@ -6435,7 +6435,7 @@ enum __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2WebResourceRequestSour
 
 struct __x_ABI_CMicrosoft_CWeb_CWebView2_CCore_CCoreWebView2PhysicalKeyStatus
     {
-        UINT32 RepeatCount;
+    UINT32 RepeatCount;
     UINT32 ScanCode;
     INT32 IsExtendedKey;
     INT32 IsMenuKeyDown;

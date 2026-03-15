@@ -1282,7 +1282,7 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CImaging_CRecognizedLineStyle
 
 struct __x_ABI_CMicrosoft_CWindows_CAI_CImaging_CRecognizedTextBoundingBox
     {
-        struct __x_ABI_CWindows_CFoundation_CPoint BottomLeft;
+    struct __x_ABI_CWindows_CFoundation_CPoint BottomLeft;
     struct __x_ABI_CWindows_CFoundation_CPoint BottomRight;
     struct __x_ABI_CWindows_CFoundation_CPoint TopLeft;
     struct __x_ABI_CWindows_CFoundation_CPoint TopRight;

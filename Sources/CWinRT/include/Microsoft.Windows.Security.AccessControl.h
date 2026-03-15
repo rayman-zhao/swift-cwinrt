@@ -22,7 +22,7 @@ typedef struct __x_ABI_CMicrosoft_CWindows_CSecurity_CAccessControl_CAppContaine
 
 struct __x_ABI_CMicrosoft_CWindows_CSecurity_CAccessControl_CAppContainerNameAndAccess
     {
-        HSTRING appContainerName;
+    HSTRING appContainerName;
     UINT32 accessMask;
 };
 

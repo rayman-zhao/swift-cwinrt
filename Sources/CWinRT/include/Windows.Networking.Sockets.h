@@ -2042,7 +2042,7 @@ enum __x_ABI_CWindows_CNetworking_CSockets_CSocketSslErrorSeverity
 
 struct __x_ABI_CWindows_CNetworking_CSockets_CBandwidthStatistics
     {
-        UINT64 OutboundBitsPerSecond;
+    UINT64 OutboundBitsPerSecond;
     UINT64 InboundBitsPerSecond;
     UINT64 OutboundBitsPerSecondInstability;
     UINT64 InboundBitsPerSecondInstability;
@@ -2052,7 +2052,7 @@ struct __x_ABI_CWindows_CNetworking_CSockets_CBandwidthStatistics
 
 struct __x_ABI_CWindows_CNetworking_CSockets_CRoundTripTimeStatistics
     {
-        UINT32 Variance;
+    UINT32 Variance;
     UINT32 Max;
     UINT32 Min;
     UINT32 Sum;

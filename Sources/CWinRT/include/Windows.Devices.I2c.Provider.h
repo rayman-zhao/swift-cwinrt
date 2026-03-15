@@ -292,7 +292,7 @@ enum __x_ABI_CWindows_CDevices_CI2c_CProvider_CProviderI2cTransferStatus
 
 struct __x_ABI_CWindows_CDevices_CI2c_CProvider_CProviderI2cTransferResult
     {
-        enum __x_ABI_CWindows_CDevices_CI2c_CProvider_CProviderI2cTransferStatus Status;
+    enum __x_ABI_CWindows_CDevices_CI2c_CProvider_CProviderI2cTransferStatus Status;
     UINT32 BytesTransferred;
 };
 

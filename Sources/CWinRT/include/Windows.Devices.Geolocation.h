@@ -1257,7 +1257,7 @@ enum __x_ABI_CWindows_CDevices_CGeolocation_CVisitStateChange
 
 struct __x_ABI_CWindows_CDevices_CGeolocation_CBasicGeoposition
     {
-        DOUBLE Latitude;
+    DOUBLE Latitude;
     DOUBLE Longitude;
     DOUBLE Altitude;
 };

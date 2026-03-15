@@ -4862,7 +4862,7 @@ enum __x_ABI_CWindows_CGraphics_CPrinting3D_CPrinting3DTextureEdgeBehavior
 
 struct __x_ABI_CWindows_CGraphics_CPrinting3D_CPrinting3DBufferDescription
     {
-        enum __x_ABI_CWindows_CGraphics_CPrinting3D_CPrinting3DBufferFormat Format;
+    enum __x_ABI_CWindows_CGraphics_CPrinting3D_CPrinting3DBufferFormat Format;
     UINT32 Stride;
 };
 

@@ -59,17 +59,17 @@ typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
 struct __x_ABI_CMicrosoft_CUI_CDisplayId
     {
-        UINT64 Value;
+    UINT64 Value;
 };
 
 struct __x_ABI_CMicrosoft_CUI_CIconId
     {
-        UINT64 Value;
+    UINT64 Value;
 };
 
 struct __x_ABI_CMicrosoft_CUI_CWindowId
     {
-        UINT64 Value;
+    UINT64 Value;
 };
 
 #if !defined(____x_ABI_CMicrosoft_CUI_CIClosableNotifierHandler_INTERFACE_DEFINED__)

@@ -1967,7 +1967,7 @@ enum __x_ABI_CWindows_CMedia_CImport_CPhotoImportSubfolderDateFormat
 
 struct __x_ABI_CWindows_CMedia_CImport_CPhotoImportProgress
     {
-        UINT32 ItemsImported;
+    UINT32 ItemsImported;
     UINT32 TotalItemsToImport;
     UINT64 BytesImported;
     UINT64 TotalBytesToImport;

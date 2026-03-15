@@ -538,7 +538,7 @@ enum __x_ABI_CWindows_CUI_CText_CVerticalCharacterAlignment
 
 struct __x_ABI_CWindows_CUI_CText_CFontWeight
     {
-        UINT16 Weight;
+    UINT16 Weight;
 };
 
 #if !defined(____x_ABI_CWindows_CUI_CText_CIContentLinkInfo_INTERFACE_DEFINED__)

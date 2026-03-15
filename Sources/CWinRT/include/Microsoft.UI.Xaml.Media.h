@@ -3197,7 +3197,7 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CSweepDirection
 
 struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CMatrix
     {
-        DOUBLE M11;
+    DOUBLE M11;
     DOUBLE M12;
     DOUBLE M21;
     DOUBLE M22;

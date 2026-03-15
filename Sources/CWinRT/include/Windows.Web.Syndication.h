@@ -1539,13 +1539,13 @@ enum __x_ABI_CWindows_CWeb_CSyndication_CSyndicationTextType
 
 struct __x_ABI_CWindows_CWeb_CSyndication_CRetrievalProgress
     {
-        UINT32 BytesRetrieved;
+    UINT32 BytesRetrieved;
     UINT32 TotalBytesToRetrieve;
 };
 
 struct __x_ABI_CWindows_CWeb_CSyndication_CTransferProgress
     {
-        UINT32 BytesSent;
+    UINT32 BytesSent;
     UINT32 TotalBytesToSend;
     UINT32 BytesRetrieved;
     UINT32 TotalBytesToRetrieve;

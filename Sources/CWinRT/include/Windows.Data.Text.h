@@ -1253,7 +1253,7 @@ enum __x_ABI_CWindows_CData_CText_CUnicodeNumericType
 
 struct __x_ABI_CWindows_CData_CText_CTextSegment
     {
-        UINT32 StartPosition;
+    UINT32 StartPosition;
     UINT32 Length;
 };
 

@@ -20,19 +20,19 @@
 
 struct __x_ABI_CWindows_CGraphics_CDisplayAdapterId
     {
-        UINT32 LowPart;
+    UINT32 LowPart;
     INT32 HighPart;
 };
 
 struct __x_ABI_CWindows_CGraphics_CPointInt32
     {
-        INT32 X;
+    INT32 X;
     INT32 Y;
 };
 
 struct __x_ABI_CWindows_CGraphics_CRectInt32
     {
-        INT32 X;
+    INT32 X;
     INT32 Y;
     INT32 Width;
     INT32 Height;
@@ -40,7 +40,7 @@ struct __x_ABI_CWindows_CGraphics_CRectInt32
 
 struct __x_ABI_CWindows_CGraphics_CSizeInt32
     {
-        INT32 Width;
+    INT32 Width;
     INT32 Height;
 };
 

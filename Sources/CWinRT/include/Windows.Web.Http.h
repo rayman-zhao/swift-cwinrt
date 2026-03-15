@@ -2660,7 +2660,7 @@ enum __x_ABI_CWindows_CWeb_CHttp_CHttpVersion
 
 struct __x_ABI_CWindows_CWeb_CHttp_CHttpProgress
     {
-        enum __x_ABI_CWindows_CWeb_CHttp_CHttpProgressStage Stage;
+    enum __x_ABI_CWindows_CWeb_CHttp_CHttpProgressStage Stage;
     UINT64 BytesSent;
     __x_ABI_C__FIReference_1_UINT64* TotalBytesToSend;
     UINT64 BytesReceived;

@@ -539,7 +539,7 @@ enum __x_ABI_CWindows_CDevices_CScanners_CImageScannerScanSource
 
 struct __x_ABI_CWindows_CDevices_CScanners_CImageScannerResolution
     {
-        FLOAT DpiX;
+    FLOAT DpiX;
     FLOAT DpiY;
 };
 

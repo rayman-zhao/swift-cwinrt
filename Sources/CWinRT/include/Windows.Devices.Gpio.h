@@ -681,13 +681,13 @@ enum __x_ABI_CWindows_CDevices_CGpio_CGpioSharingMode
 
 struct __x_ABI_CWindows_CDevices_CGpio_CGpioChangeCount
     {
-        UINT64 Count;
+    UINT64 Count;
     struct __x_ABI_CWindows_CFoundation_CTimeSpan RelativeTime;
 };
 
 struct __x_ABI_CWindows_CDevices_CGpio_CGpioChangeRecord
     {
-        struct __x_ABI_CWindows_CFoundation_CTimeSpan RelativeTime;
+    struct __x_ABI_CWindows_CFoundation_CTimeSpan RelativeTime;
     enum __x_ABI_CWindows_CDevices_CGpio_CGpioPinEdge Edge;
 };
 

@@ -5558,13 +5558,13 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CUssdResultCode
 
 struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimProfileInstallProgress
     {
-        INT32 TotalSizeInBytes;
+    INT32 TotalSizeInBytes;
     INT32 InstalledSizeInBytes;
 };
 
 struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     {
-        UINT32 UsageInMegabytes;
+    UINT32 UsageInMegabytes;
     struct __x_ABI_CWindows_CFoundation_CDateTime LastSyncTime;
 };
 

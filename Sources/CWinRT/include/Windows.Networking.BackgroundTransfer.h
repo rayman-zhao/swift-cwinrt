@@ -2202,7 +2202,7 @@ enum __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundTransferStatus
 
 struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundDownloadProgress
     {
-        UINT64 BytesReceived;
+    UINT64 BytesReceived;
     UINT64 TotalBytesToReceive;
     enum __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundTransferStatus Status;
     boolean HasResponseChanged;
@@ -2211,13 +2211,13 @@ struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundDownloadProgr
 
 struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundTransferFileRange
     {
-        UINT64 Offset;
+    UINT64 Offset;
     UINT64 Length;
 };
 
 struct __x_ABI_CWindows_CNetworking_CBackgroundTransfer_CBackgroundUploadProgress
     {
-        UINT64 BytesReceived;
+    UINT64 BytesReceived;
     UINT64 BytesSent;
     UINT64 TotalBytesToReceive;
     UINT64 TotalBytesToSend;

@@ -454,13 +454,13 @@ enum __x_ABI_CWindows_CUI_CInput_CPreview_CInjection_CInjectedInputVisualization
 
 struct __x_ABI_CWindows_CUI_CInput_CPreview_CInjection_CInjectedInputPoint
     {
-        INT32 PositionX;
+    INT32 PositionX;
     INT32 PositionY;
 };
 
 struct __x_ABI_CWindows_CUI_CInput_CPreview_CInjection_CInjectedInputPointerInfo
     {
-        UINT32 PointerId;
+    UINT32 PointerId;
     enum __x_ABI_CWindows_CUI_CInput_CPreview_CInjection_CInjectedInputPointerOptions PointerOptions;
     struct __x_ABI_CWindows_CUI_CInput_CPreview_CInjection_CInjectedInputPoint PixelLocation;
     UINT32 TimeOffsetInMilliseconds;
@@ -469,7 +469,7 @@ struct __x_ABI_CWindows_CUI_CInput_CPreview_CInjection_CInjectedInputPointerInfo
 
 struct __x_ABI_CWindows_CUI_CInput_CPreview_CInjection_CInjectedInputRectangle
     {
-        INT32 Left;
+    INT32 Left;
     INT32 Top;
     INT32 Bottom;
     INT32 Right;

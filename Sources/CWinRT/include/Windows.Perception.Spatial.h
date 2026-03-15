@@ -1284,13 +1284,13 @@ enum __x_ABI_CWindows_CPerception_CSpatial_CSpatialPerceptionAccessStatus
 
 struct __x_ABI_CWindows_CPerception_CSpatial_CSpatialBoundingBox
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Center;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Center;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Extents;
 };
 
 struct __x_ABI_CWindows_CPerception_CSpatial_CSpatialBoundingFrustum
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CPlane Near;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CPlane Near;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CPlane Far;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CPlane Right;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CPlane Left;
@@ -1300,20 +1300,20 @@ struct __x_ABI_CWindows_CPerception_CSpatial_CSpatialBoundingFrustum
 
 struct __x_ABI_CWindows_CPerception_CSpatial_CSpatialBoundingOrientedBox
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Center;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Center;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Extents;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CQuaternion Orientation;
 };
 
 struct __x_ABI_CWindows_CPerception_CSpatial_CSpatialBoundingSphere
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Center;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Center;
     FLOAT Radius;
 };
 
 struct __x_ABI_CWindows_CPerception_CSpatial_CSpatialRay
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Origin;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Origin;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector3 Direction;
 };
 

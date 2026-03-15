@@ -1567,7 +1567,7 @@ enum __x_ABI_CMicrosoft_CWindows_CManagement_CDeployment_CStubPackageOption
 
 struct __x_ABI_CMicrosoft_CWindows_CManagement_CDeployment_CPackageDeploymentProgress
     {
-        enum __x_ABI_CMicrosoft_CWindows_CManagement_CDeployment_CPackageDeploymentProgressStatus Status;
+    enum __x_ABI_CMicrosoft_CWindows_CManagement_CDeployment_CPackageDeploymentProgressStatus Status;
     DOUBLE Progress;
 };
 

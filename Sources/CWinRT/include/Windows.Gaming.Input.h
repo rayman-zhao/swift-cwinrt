@@ -1731,13 +1731,13 @@ enum __x_ABI_CWindows_CGaming_CInput_CRequiredUINavigationButtons
 
 struct __x_ABI_CWindows_CGaming_CInput_CArcadeStickReading
     {
-        UINT64 Timestamp;
+    UINT64 Timestamp;
     enum __x_ABI_CWindows_CGaming_CInput_CArcadeStickButtons Buttons;
 };
 
 struct __x_ABI_CWindows_CGaming_CInput_CFlightStickReading
     {
-        UINT64 Timestamp;
+    UINT64 Timestamp;
     enum __x_ABI_CWindows_CGaming_CInput_CFlightStickButtons Buttons;
     enum __x_ABI_CWindows_CGaming_CInput_CGameControllerSwitchPosition HatSwitch;
     DOUBLE Roll;
@@ -1748,7 +1748,7 @@ struct __x_ABI_CWindows_CGaming_CInput_CFlightStickReading
 
 struct __x_ABI_CWindows_CGaming_CInput_CGamepadReading
     {
-        UINT64 Timestamp;
+    UINT64 Timestamp;
     enum __x_ABI_CWindows_CGaming_CInput_CGamepadButtons Buttons;
     DOUBLE LeftTrigger;
     DOUBLE RightTrigger;
@@ -1760,7 +1760,7 @@ struct __x_ABI_CWindows_CGaming_CInput_CGamepadReading
 
 struct __x_ABI_CWindows_CGaming_CInput_CGamepadVibration
     {
-        DOUBLE LeftMotor;
+    DOUBLE LeftMotor;
     DOUBLE RightMotor;
     DOUBLE LeftTrigger;
     DOUBLE RightTrigger;
@@ -1768,7 +1768,7 @@ struct __x_ABI_CWindows_CGaming_CInput_CGamepadVibration
 
 struct __x_ABI_CWindows_CGaming_CInput_CRacingWheelReading
     {
-        UINT64 Timestamp;
+    UINT64 Timestamp;
     enum __x_ABI_CWindows_CGaming_CInput_CRacingWheelButtons Buttons;
     INT32 PatternShifterGear;
     DOUBLE Wheel;
@@ -1780,7 +1780,7 @@ struct __x_ABI_CWindows_CGaming_CInput_CRacingWheelReading
 
 struct __x_ABI_CWindows_CGaming_CInput_CUINavigationReading
     {
-        UINT64 Timestamp;
+    UINT64 Timestamp;
     enum __x_ABI_CWindows_CGaming_CInput_CRequiredUINavigationButtons RequiredButtons;
     enum __x_ABI_CWindows_CGaming_CInput_COptionalUINavigationButtons OptionalButtons;
 };

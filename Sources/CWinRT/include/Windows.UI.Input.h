@@ -1745,7 +1745,7 @@ enum __x_ABI_CWindows_CUI_CInput_CRadialControllerSystemMenuItemKind
 
 struct __x_ABI_CWindows_CUI_CInput_CCrossSlideThresholds
     {
-        FLOAT SelectionStart;
+    FLOAT SelectionStart;
     FLOAT SpeedBumpStart;
     FLOAT SpeedBumpEnd;
     FLOAT RearrangeStart;
@@ -1753,7 +1753,7 @@ struct __x_ABI_CWindows_CUI_CInput_CCrossSlideThresholds
 
 struct __x_ABI_CWindows_CUI_CInput_CManipulationDelta
     {
-        struct __x_ABI_CWindows_CFoundation_CPoint Translation;
+    struct __x_ABI_CWindows_CFoundation_CPoint Translation;
     FLOAT Scale;
     FLOAT Rotation;
     FLOAT Expansion;
@@ -1761,7 +1761,7 @@ struct __x_ABI_CWindows_CUI_CInput_CManipulationDelta
 
 struct __x_ABI_CWindows_CUI_CInput_CManipulationVelocities
     {
-        struct __x_ABI_CWindows_CFoundation_CPoint Linear;
+    struct __x_ABI_CWindows_CFoundation_CPoint Linear;
     FLOAT Angular;
     FLOAT Expansion;
 };

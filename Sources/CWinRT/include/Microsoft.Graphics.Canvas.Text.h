@@ -2077,13 +2077,13 @@ enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasWordWrapping
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasAnalyzedBidi
     {
-        UINT32 ExplicitLevel;
+    UINT32 ExplicitLevel;
     UINT32 ResolvedLevel;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasAnalyzedBreakpoint
     {
-        enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasLineBreakCondition BreakBefore;
+    enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasLineBreakCondition BreakBefore;
     enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasLineBreakCondition BreakAfter;
     boolean IsWhitespace;
     boolean IsSoftHyphen;
@@ -2091,7 +2091,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasAnalyzedBreakpoint
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasAnalyzedGlyphOrientation
     {
-        enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphOrientation GlyphOrientation;
+    enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphOrientation GlyphOrientation;
     UINT32 AdjustedBidiLevel;
     boolean IsSideways;
     boolean IsRightToLeft;
@@ -2099,33 +2099,33 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasAnalyzedGlyphOrientatio
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasAnalyzedScript
     {
-        INT32 ScriptIdentifier;
+    INT32 ScriptIdentifier;
     enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasScriptShape Shape;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasCharacterRange
     {
-        INT32 CharacterIndex;
+    INT32 CharacterIndex;
     INT32 CharacterCount;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasClusterMetrics
     {
-        INT32 CharacterCount;
+    INT32 CharacterCount;
     FLOAT Width;
     enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasClusterProperties Properties;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasFontProperty
     {
-        enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasFontPropertyIdentifier Identifier;
+    enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasFontPropertyIdentifier Identifier;
     HSTRING Value;
     HSTRING Locale;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyph
     {
-        INT32 Index;
+    INT32 Index;
     FLOAT Advance;
     FLOAT AdvanceOffset;
     FLOAT AscenderOffset;
@@ -2133,7 +2133,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyph
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphMetrics
     {
-        FLOAT LeftSideBearing;
+    FLOAT LeftSideBearing;
     FLOAT AdvanceWidth;
     FLOAT RightSideBearing;
     FLOAT TopSideBearing;
@@ -2145,7 +2145,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphMetrics
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphShaping
     {
-        enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphJustification Justification;
+    enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphJustification Justification;
     boolean IsClusterStart;
     boolean IsDiacritic;
     boolean IsZeroWidthSpace;
@@ -2153,7 +2153,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasGlyphShaping
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasJustificationOpportunity
     {
-        FLOAT ExpansionMinimum;
+    FLOAT ExpansionMinimum;
     FLOAT ExpansionMaximum;
     FLOAT CompressionMaximum;
     BYTE ExpansionPriority;
@@ -2166,7 +2166,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasJustificationOpportunit
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasLineMetrics
     {
-        INT32 CharacterCount;
+    INT32 CharacterCount;
     INT32 TrailingWhitespaceCount;
     INT32 TerminalNewlineCount;
     FLOAT Height;
@@ -2178,7 +2178,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasLineMetrics
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasScriptProperties
     {
-        HSTRING IsoScriptCode;
+    HSTRING IsoScriptCode;
     INT32 IsoScriptNumber;
     INT32 ClusterLookahead;
     HSTRING JustificationCharacter;
@@ -2193,20 +2193,20 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasScriptProperties
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasTextLayoutRegion
     {
-        INT32 CharacterIndex;
+    INT32 CharacterIndex;
     INT32 CharacterCount;
     struct __x_ABI_CWindows_CFoundation_CRect LayoutBounds;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasTypographyFeature
     {
-        enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasTypographyFeatureName Name;
+    enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasTypographyFeatureName Name;
     UINT32 Parameter;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CText_CCanvasUnicodeRange
     {
-        UINT32 First;
+    UINT32 First;
     UINT32 Last;
 };
 

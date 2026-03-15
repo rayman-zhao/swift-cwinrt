@@ -1172,7 +1172,7 @@ enum __x_ABI_CWindows_CGraphics_CPrinting_CPrintTaskCompletion
 
 struct __x_ABI_CWindows_CGraphics_CPrinting_CPrintPageDescription
     {
-        struct __x_ABI_CWindows_CFoundation_CSize PageSize;
+    struct __x_ABI_CWindows_CFoundation_CSize PageSize;
     struct __x_ABI_CWindows_CFoundation_CRect ImageableRect;
     UINT32 DpiX;
     UINT32 DpiY;

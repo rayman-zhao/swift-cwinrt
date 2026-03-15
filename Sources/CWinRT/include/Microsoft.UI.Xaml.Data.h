@@ -842,7 +842,7 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CData_CUpdateSourceTrigger
 
 struct __x_ABI_CMicrosoft_CUI_CXaml_CData_CLoadMoreItemsResult
     {
-        UINT32 Count;
+    UINT32 Count;
 };
 
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CData_CICurrentChangingEventHandler_INTERFACE_DEFINED__)

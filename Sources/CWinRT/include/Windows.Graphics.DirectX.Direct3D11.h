@@ -61,13 +61,13 @@ enum __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CDirect3DUsage
 
 struct __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CDirect3DMultisampleDescription
     {
-        INT32 Count;
+    INT32 Count;
     INT32 Quality;
 };
 
 struct __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CDirect3DSurfaceDescription
     {
-        INT32 Width;
+    INT32 Width;
     INT32 Height;
     enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat Format;
     struct __x_ABI_CWindows_CGraphics_CDirectX_CDirect3D11_CDirect3DMultisampleDescription MultisampleDescription;

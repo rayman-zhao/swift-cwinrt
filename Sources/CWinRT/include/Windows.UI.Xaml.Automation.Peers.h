@@ -2504,7 +2504,7 @@ enum __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CPatternInterface
 
 struct __x_ABI_CWindows_CUI_CXaml_CAutomation_CPeers_CRawElementProviderRuntimeId
     {
-        UINT32 Part1;
+    UINT32 Part1;
     UINT32 Part2;
 };
 

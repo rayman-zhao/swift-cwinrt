@@ -181,13 +181,13 @@ typedef struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CBrushes_CCanvasGradientStop
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CBrushes_CCanvasGradientStop
     {
-        FLOAT Position;
+    FLOAT Position;
     struct __x_ABI_CWindows_CUI_CColor Color;
 };
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CBrushes_CCanvasGradientStopHdr
     {
-        FLOAT Position;
+    FLOAT Position;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector4 Color;
 };
 

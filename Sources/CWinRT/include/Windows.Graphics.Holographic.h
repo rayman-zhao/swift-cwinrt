@@ -1279,13 +1279,13 @@ enum __x_ABI_CWindows_CGraphics_CHolographic_CHolographicViewConfigurationKind
 
 struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicAdapterId
     {
-        UINT32 LowPart;
+    UINT32 LowPart;
     INT32 HighPart;
 };
 
 struct __x_ABI_CWindows_CGraphics_CHolographic_CHolographicStereoTransform
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CMatrix4x4 Left;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CMatrix4x4 Left;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CMatrix4x4 Right;
 };
 

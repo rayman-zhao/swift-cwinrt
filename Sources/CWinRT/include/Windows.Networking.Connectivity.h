@@ -2991,7 +2991,7 @@ enum __x_ABI_CWindows_CNetworking_CConnectivity_CWwanNetworkRegistrationState
 
 struct __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkUsageStates
     {
-        enum __x_ABI_CWindows_CNetworking_CConnectivity_CTriStates Roaming;
+    enum __x_ABI_CWindows_CNetworking_CConnectivity_CTriStates Roaming;
     enum __x_ABI_CWindows_CNetworking_CConnectivity_CTriStates Shared;
 };
 

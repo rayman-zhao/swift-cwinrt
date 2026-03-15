@@ -381,18 +381,18 @@ enum __x_ABI_CWindows_CFoundation_CPropertyType
 
 struct __x_ABI_CWindows_CFoundation_CDateTime
     {
-        INT64 UniversalTime;
+    INT64 UniversalTime;
 };
 
 struct __x_ABI_CWindows_CFoundation_CPoint
     {
-        FLOAT X;
+    FLOAT X;
     FLOAT Y;
 };
 
 struct __x_ABI_CWindows_CFoundation_CRect
     {
-        FLOAT X;
+    FLOAT X;
     FLOAT Y;
     FLOAT Width;
     FLOAT Height;
@@ -400,13 +400,13 @@ struct __x_ABI_CWindows_CFoundation_CRect
 
 struct __x_ABI_CWindows_CFoundation_CSize
     {
-        FLOAT Width;
+    FLOAT Width;
     FLOAT Height;
 };
 
 struct __x_ABI_CWindows_CFoundation_CTimeSpan
     {
-        INT64 Duration;
+    INT64 Duration;
 };
 
 #if !defined(____x_ABI_CWindows_CFoundation_CIAsyncActionCompletedHandler_INTERFACE_DEFINED__)

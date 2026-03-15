@@ -4705,19 +4705,19 @@ enum __x_ABI_CWindows_CMedia_CCore_CVideoStabilizationEffectEnabledChangedReason
 
 struct __x_ABI_CWindows_CMedia_CCore_CMseTimeRange
     {
-        struct __x_ABI_CWindows_CFoundation_CTimeSpan Start;
+    struct __x_ABI_CWindows_CFoundation_CTimeSpan Start;
     struct __x_ABI_CWindows_CFoundation_CTimeSpan End;
 };
 
 struct __x_ABI_CWindows_CMedia_CCore_CTimedTextDouble
     {
-        DOUBLE Value;
+    DOUBLE Value;
     enum __x_ABI_CWindows_CMedia_CCore_CTimedTextUnit Unit;
 };
 
 struct __x_ABI_CWindows_CMedia_CCore_CTimedTextPadding
     {
-        DOUBLE Before;
+    DOUBLE Before;
     DOUBLE After;
     DOUBLE Start;
     DOUBLE End;
@@ -4726,14 +4726,14 @@ struct __x_ABI_CWindows_CMedia_CCore_CTimedTextPadding
 
 struct __x_ABI_CWindows_CMedia_CCore_CTimedTextPoint
     {
-        DOUBLE X;
+    DOUBLE X;
     DOUBLE Y;
     enum __x_ABI_CWindows_CMedia_CCore_CTimedTextUnit Unit;
 };
 
 struct __x_ABI_CWindows_CMedia_CCore_CTimedTextSize
     {
-        DOUBLE Height;
+    DOUBLE Height;
     DOUBLE Width;
     enum __x_ABI_CWindows_CMedia_CCore_CTimedTextUnit Unit;
 };

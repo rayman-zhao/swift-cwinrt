@@ -2544,7 +2544,7 @@ enum __x_ABI_CWindows_CStorage_CSearch_CIndexerOption
 
 struct __x_ABI_CWindows_CStorage_CSearch_CSortEntry
     {
-        HSTRING PropertyName;
+    HSTRING PropertyName;
     boolean AscendingOrder;
 };
 

@@ -328,7 +328,7 @@ enum __x_ABI_CWindows_CGraphics_CDisplay_CCore_CHdmiDisplayPixelEncoding
 
 struct __x_ABI_CWindows_CGraphics_CDisplay_CCore_CHdmiDisplayHdr2086Metadata
     {
-        UINT16 RedPrimaryX;
+    UINT16 RedPrimaryX;
     UINT16 RedPrimaryY;
     UINT16 GreenPrimaryX;
     UINT16 GreenPrimaryY;

@@ -31,7 +31,7 @@ enum __x_ABI_CMicrosoft_CWindows_CVision_CScreenRegionLabel
 #if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
 struct __x_ABI_CMicrosoft_CWindows_CVision_CScreenRegionBoundingBox
     {
-        UINT32 Left;
+    UINT32 Left;
     UINT32 Top;
     UINT32 Right;
     UINT32 Bottom;

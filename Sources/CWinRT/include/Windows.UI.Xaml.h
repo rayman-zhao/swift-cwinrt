@@ -5961,7 +5961,7 @@ enum __x_ABI_CWindows_CUI_CXaml_CVisibility
 
 struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius
     {
-        DOUBLE TopLeft;
+    DOUBLE TopLeft;
     DOUBLE TopRight;
     DOUBLE BottomRight;
     DOUBLE BottomLeft;
@@ -5969,19 +5969,19 @@ struct __x_ABI_CWindows_CUI_CXaml_CCornerRadius
 
 struct __x_ABI_CWindows_CUI_CXaml_CDuration
     {
-        struct __x_ABI_CWindows_CFoundation_CTimeSpan TimeSpan;
+    struct __x_ABI_CWindows_CFoundation_CTimeSpan TimeSpan;
     enum __x_ABI_CWindows_CUI_CXaml_CDurationType Type;
 };
 
 struct __x_ABI_CWindows_CUI_CXaml_CGridLength
     {
-        DOUBLE Value;
+    DOUBLE Value;
     enum __x_ABI_CWindows_CUI_CXaml_CGridUnitType GridUnitType;
 };
 
 struct __x_ABI_CWindows_CUI_CXaml_CThickness
     {
-        DOUBLE Left;
+    DOUBLE Left;
     DOUBLE Top;
     DOUBLE Right;
     DOUBLE Bottom;

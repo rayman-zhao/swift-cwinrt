@@ -264,7 +264,7 @@ enum __x_ABI_CMicrosoft_CGraphics_CCanvas_CGeometry_CCanvasSweepDirection
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CGeometry_CCanvasGradientMeshPatch
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Point00;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Point00;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Point01;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Point02;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Point03;
@@ -292,7 +292,7 @@ struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CGeometry_CCanvasGradientMeshPatch
 
 struct __x_ABI_CMicrosoft_CGraphics_CCanvas_CGeometry_CCanvasTriangleVertices
     {
-        struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Vertex1;
+    struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Vertex1;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Vertex2;
     struct __x_ABI_CWindows_CFoundation_CNumerics_CVector2 Vertex3;
 };

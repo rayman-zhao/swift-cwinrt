@@ -2511,12 +2511,12 @@ enum __x_ABI_CWindows_CApplicationModel_CStartupTaskState
 
 struct __x_ABI_CWindows_CApplicationModel_CPackageInstallProgress
     {
-        UINT32 PercentComplete;
+    UINT32 PercentComplete;
 };
 
 struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     {
-        UINT16 Major;
+    UINT16 Major;
     UINT16 Minor;
     UINT16 Build;
     UINT16 Revision;

@@ -2545,12 +2545,12 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CAnimation_CSlideNavigationTransitionEf
 
 struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CAnimation_CKeyTime
     {
-        struct __x_ABI_CWindows_CFoundation_CTimeSpan TimeSpan;
+    struct __x_ABI_CWindows_CFoundation_CTimeSpan TimeSpan;
 };
 
 struct __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CAnimation_CRepeatBehavior
     {
-        DOUBLE Count;
+    DOUBLE Count;
     struct __x_ABI_CWindows_CFoundation_CTimeSpan Duration;
     enum __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CAnimation_CRepeatBehaviorType Type;
 };

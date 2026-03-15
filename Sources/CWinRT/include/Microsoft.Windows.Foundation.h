@@ -22,7 +22,7 @@ typedef struct __x_ABI_CMicrosoft_CWindows_CFoundation_CDecimalValue __x_ABI_CMi
 
 struct __x_ABI_CMicrosoft_CWindows_CFoundation_CDecimalValue
     {
-        UINT16 Reserved;
+    UINT16 Reserved;
     BYTE Scale;
     BYTE Sign;
     UINT32 Hi32;

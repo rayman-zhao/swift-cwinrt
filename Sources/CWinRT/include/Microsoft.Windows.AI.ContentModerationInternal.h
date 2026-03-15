@@ -49,7 +49,7 @@ typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CContentModerationInternal_CTextC
 
 struct __x_ABI_CMicrosoft_CWindows_CAI_CContentModerationInternal_CImageContentAnalysisScores
     {
-        UINT32 numCategoryLevels;
+    UINT32 numCategoryLevels;
     FLOAT normalContentLevel;
     FLOAT adultHarmContentLevel;
     FLOAT racyContentLevel;
@@ -59,7 +59,7 @@ struct __x_ABI_CMicrosoft_CWindows_CAI_CContentModerationInternal_CImageContentA
 
 struct __x_ABI_CMicrosoft_CWindows_CAI_CContentModerationInternal_CTextContentAnalysisScores
     {
-        UINT32 numCategoryLevels;
+    UINT32 numCategoryLevels;
     UINT32 selfHarmContentLevel;
     UINT32 violentContentLevel;
     UINT32 hateContentLevel;

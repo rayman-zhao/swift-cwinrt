@@ -2227,7 +2227,7 @@ enum __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CTickPlacement
 
 struct __x_ABI_CWindows_CUI_CXaml_CControls_CPrimitives_CGeneratorPosition
     {
-        INT32 Index;
+    INT32 Index;
     INT32 Offset;
 };
 
