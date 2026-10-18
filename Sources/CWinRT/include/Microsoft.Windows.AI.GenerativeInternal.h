@@ -97,6 +97,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore2_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3 __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CITextIntelligenceSession_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CITextIntelligenceSession_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CITextIntelligenceSession __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CITextIntelligenceSession;
@@ -1700,6 +1706,49 @@ struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CLanguageModelOptions
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore2;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GenerateResponseWithProgressEvent)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3* This,
+        struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CLanguageModelOptionsInternal options,
+        HSTRING prompt,
+        GUID eventToken,
+        UINT32 priority,
+        UINT32 frequency,
+        struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentFilterOptionsInternal contentFilterOptions,
+        __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionContext* context,
+        HSTRING skillOptions,
+        __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionAdapter* adapter,
+        HSTRING jsonSchema,
+        HSTRING* result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CILanguageModelSessionCore3_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CITextIntelligenceSession_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CITextIntelligenceSession_INTERFACE_DEFINED__

@@ -13,6 +13,12 @@
 #include "Windows.Foundation.Collections.h"
 
 /* Forward Declarations */
+#ifndef ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal;
@@ -60,6 +66,24 @@
     typedef interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession3 __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession3;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession3_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4 __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5 __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6 __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6_FWD_DEFINED__
 
 // Parameterized interface forward declarations (C)
 
@@ -519,11 +543,15 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 typedef struct __x_ABI_CWindows_CFoundation_CPoint __x_ABI_CWindows_CFoundation_CPoint;
 
+typedef struct __x_ABI_CWindows_CFoundation_CRect __x_ABI_CWindows_CFoundation_CRect;
+
 typedef struct __x_ABI_CWindows_CGraphics_CSizeInt32 __x_ABI_CWindows_CGraphics_CSizeInt32;
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CDetectedLineStyle __x_ABI_CMicrosoft_CWindows_CVisionInternal_CDetectedLineStyle;
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions;
+
+typedef enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellKindInternal __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellKindInternal;
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionLabel __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionLabel;
 
@@ -531,7 +559,13 @@ typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox __x_ABI_
 
 typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedLineStyle __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedLineStyle;
 
+typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellInternal __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellInternal;
+
+typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableInternal __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableInternal;
+
 typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionBoundingBox __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionBoundingBox;
+
+typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTableRecognizerOptionsInternal __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTableRecognizerOptionsInternal;
 
 typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTextRecognizerOptionsInternal __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTextRecognizerOptionsInternal;
 
@@ -545,6 +579,13 @@ enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions
     {
         __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions_None = 0,
     __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions_DetectOrientation = 1,
+};
+
+enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellKindInternal
+    {
+        __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellKindInternal_Content = 0,
+    __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellKindInternal_RowHeader = 1,
+    __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellKindInternal_ColumnHeader = 2,
 };
 
 enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionLabel
@@ -582,6 +623,25 @@ struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CLineInternal
     UINT32 WordCount;
 };
 
+struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellInternal
+    {
+    INT32 RowIndex;
+    INT32 ColumnIndex;
+    INT32 RowSpan;
+    INT32 ColumnSpan;
+    HSTRING Content;
+    struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox BoundingBox;
+    enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellKindInternal Kind;
+};
+
+struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableInternal
+    {
+    INT32 RowCount;
+    INT32 ColumnCount;
+    struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CBoundingBox BoundingBox;
+    UINT32 CellCount;
+};
+
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTextInternal
     {
     FLOAT ImageAngle;
@@ -610,6 +670,12 @@ struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CScreenRegionInternal4
     FLOAT Score;
 };
 
+struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTableRecognizerOptionsInternal
+    {
+    UINT32 TableRegionCount;
+    boolean PopulateCellContent;
+};
+
 struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTextRecognizerOptionsInternal
     {
     enum __x_ABI_CMicrosoft_CWindows_CVisionInternal_COrientationDetectionOptions OrientationDetection;
@@ -623,6 +689,44 @@ struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CWordInternal
     FLOAT Confidence;
 };
 
+#if !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternalVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetTables)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This,
+        UINT32* resultLength,
+        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableInternal** result);
+    HRESULT (STDMETHODCALLTYPE* GetTableCells)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal* This,
+        UINT32 tableIndex,
+        UINT32* resultLength,
+        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CRecognizedTableCellInternal** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternalVtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternalVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternalVtbl
@@ -913,4 +1017,118 @@ struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CWordInternal
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession3;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RecognizeTextFromImage)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4* This,
+        __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CIImageBufferResource* imageBufferResource,
+        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTextRecognizerOptionsInternal options,
+        UINT32 priority,
+        UINT32 frequency,
+        boolean enableWordLevelConfidence,
+        __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RecognizeTextFromImage)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5* This,
+        __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CIImageBufferResource* imageBufferResource,
+        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTextRecognizerOptionsInternal options,
+        UINT32 priority,
+        UINT32 frequency,
+        boolean enableWordLevelConfidence,
+        HSTRING detectorOutputGeometryMode,
+        __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTextInternal** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* RecognizeTableFromImage)(__x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6* This,
+        __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CIImageBufferResource* imageBufferResource,
+        struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CTableRecognizerOptionsInternal options,
+        UINT32 tableRegionsLength,
+        struct __x_ABI_CWindows_CFoundation_CRect* tableRegions,
+        __x_ABI_CMicrosoft_CWindows_CVisionInternal_CIRecognizedTablesInternal** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CVisionInternal_CITextRecognizerSession6_INTERFACE_DEFINED__) */
     

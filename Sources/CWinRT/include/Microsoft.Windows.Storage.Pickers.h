@@ -17,6 +17,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2 __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory;
@@ -29,6 +35,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2 __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory;
@@ -40,6 +52,12 @@
     typedef interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2 __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory_FWD_DEFINED__
@@ -424,6 +442,216 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVec
 
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFileResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        UINT32 itemsLength,
+        __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        UINT32 index,
+        __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIPickFolderResult** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
@@ -934,6 +1162,59 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Title)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_FileTypeChoices)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        __x_ABI_C__FIMap_2_HSTRING___x_ABI_C__FIVector_1_HSTRING** value);
+    HRESULT (STDMETHODCALLTYPE* get_InitialFileTypeIndex)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* put_InitialFileTypeIndex)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        INT32 value);
+    HRESULT (STDMETHODCALLTYPE* get_SuggestedFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SuggestedFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_SuggestedStartFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SuggestedStartFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2* This,
+        HSTRING value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPicker2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileOpenPickerFactoryVtbl
@@ -1023,6 +1304,57 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Title)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_InitialFileTypeIndex)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* put_InitialFileTypeIndex)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        INT32 value);
+    HRESULT (STDMETHODCALLTYPE* get_SuggestedStartFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SuggestedStartFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_ShowOverwritePrompt)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_ShowOverwritePrompt)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePicker2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFileSavePickerFactoryVtbl
@@ -1101,6 +1433,55 @@ enum __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CPickerViewMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Title)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SettingsIdentifier)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_SuggestedFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SuggestedFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_SuggestedStartFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_SuggestedStartFolder)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* PickMultipleFoldersAsync)(__x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CMicrosoft__CWindows__CStorage__CPickers__CPickFolderResult** operation);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPicker2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CStorage_CPickers_CIFolderPickerFactory_INTERFACE_DEFINED__

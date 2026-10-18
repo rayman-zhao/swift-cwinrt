@@ -3690,6 +3690,24 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextControlPasteEvent
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISymbolIconStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView;
@@ -4032,6 +4050,12 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextControlPasteEvent
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2 __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarAutomationPeer_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarAutomationPeer_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarAutomationPeer __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarAutomationPeer;
@@ -4055,6 +4079,12 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextControlPasteEvent
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics;
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2 __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarTemplateSettings_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarTemplateSettings_FWD_DEFINED__
@@ -10708,6 +10738,44 @@ typedef interface __x_ABI_C__FIObservableVector_1___x_ABI_CMicrosoft__CUI__CXaml
 
     
     #endif // ____x_ABI_C__FIEventHandler_1___x_ABI_CMicrosoft__CUI__CXaml__CControls__CTimePickerValueChangedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_boolean __x_ABI_C__FIReference_1_boolean;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_boolean;
+
+    typedef struct __x_ABI_C__FIReference_1_booleanVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_boolean* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_boolean* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_boolean* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_boolean* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_boolean* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_boolean* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_boolean* This,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_booleanVtbl;
+
+    interface __x_ABI_C__FIReference_1_boolean
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_booleanVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__
@@ -44474,6 +44542,115 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISymbolIconStatics;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISymbolIconStatics_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SystemBackdrop)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISystemBackdrop** value);
+    HRESULT (STDMETHODCALLTYPE* put_SystemBackdrop)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CMedia_CISystemBackdrop* value);
+    HRESULT (STDMETHODCALLTYPE* get_CornerRadius)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius* value);
+    HRESULT (STDMETHODCALLTYPE* put_CornerRadius)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement* This,
+        struct __x_ABI_CMicrosoft_CUI_CXaml_CCornerRadius value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory* This,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElement** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactoryVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SystemBackdropProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_CornerRadiusProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStaticsVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISystemBackdropElementStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabView_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITabViewVtbl
@@ -47360,6 +47537,42 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AutoRefreshDragRegions)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_AutoRefreshDragRegions)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This,
+        boolean value);
+    HRESULT (STDMETHODCALLTYPE* RecomputeDragRegions)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2* This);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBar2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarAutomationPeer_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarAutomationPeer_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarAutomationPeerVtbl
@@ -47512,6 +47725,47 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AutoRefreshDragRegionsProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_IsDragRegionProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* GetIsDragRegion)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement* element,
+        __x_ABI_C__FIReference_1_boolean** result);
+    HRESULT (STDMETHODCALLTYPE* SetIsDragRegion)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIUIElement* element,
+        __x_ABI_C__FIReference_1_boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarTemplateSettings_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CITitleBarTemplateSettings_INTERFACE_DEFINED__

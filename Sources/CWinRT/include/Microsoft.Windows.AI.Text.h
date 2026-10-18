@@ -25,6 +25,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CIConversationSummaryOptions_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult __x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel;
@@ -36,6 +42,12 @@
     typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2 __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3 __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_FWD_DEFINED__
@@ -49,11 +61,35 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelEmbeddingVectorResult_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2 __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelResponseResult_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelResponseResult_FWD_DEFINED__
@@ -344,6 +380,120 @@ typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__
 
     
     #endif // ____x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CAIFeatureReadyResult_double_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+#if !defined(____x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+    typedef struct __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+    typedef struct __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Progress)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+        __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Progress)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+        __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING** result);
+    HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+        __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+        __x_ABI_C__FIAsyncOperationWithProgressCompletedHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+        __x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING;
+
+    typedef struct __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* This,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING* asyncInfo,
+        HSTRING progressInfo);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRINGVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING_INTERFACE_DEFINED__
     
 typedef interface __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING __x_ABI_C__FIAsyncOperationProgressHandler_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CLanguageModelResponseResult_HSTRING;
 
@@ -869,11 +1019,25 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
 
 #endif // ____x_ABI_CWindows_CFoundation_CIClosable_FWD_DEFINED__
 
+typedef enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus;
+
 typedef enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CInputKind __x_ABI_CMicrosoft_CWindows_CAI_CText_CInputKind;
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CLanguageModelResponseStatus __x_ABI_CMicrosoft_CWindows_CAI_CText_CLanguageModelResponseStatus;
 
 typedef enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone;
+
+enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus
+    {
+        __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_Complete = 0,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_InProgress = 1,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_BlockedByPolicy = 2,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_PromptLargerThanContext = 3,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_PromptBlockedByContentModeration = 4,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_ResponseBlockedByContentModeration = 5,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_Error = 6,
+    __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus_CompleteWithInvalidStructure = 7,
+};
 
 enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CInputKind
     {
@@ -991,6 +1155,43 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CIConversationSummaryOptions;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CIConversationSummaryOptions_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Text)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This,
+        enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CGenerateStructuredJsonResponseStatus* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResultVtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CIGenerateStructuredJsonResponseResult_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelVtbl
@@ -1102,6 +1303,46 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel2_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GenerateStructuredJsonResponseAsync)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This,
+        HSTRING prompt,
+        HSTRING jsonSchema,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING** operation);
+    HRESULT (STDMETHODCALLTYPE* GenerateStructuredJsonResponseAsync2)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3* This,
+        HSTRING prompt,
+        HSTRING jsonSchema,
+        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions* options,
+        __x_ABI_C__FIAsyncOperationWithProgress_2___x_ABI_CMicrosoft__CWindows__CAI__CText__CGenerateStructuredJsonResponseResult_HSTRING** operation);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModel3_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContext_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelContextVtbl
@@ -1170,6 +1411,106 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelEmbeddingVectorResult;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelEmbeddingVectorResult_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter* This,
+            TrustLevel* trustLevel);
+    
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterVtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LowRankAdapter)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This,
+        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter** value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResultVtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateFromPath)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics* This,
+        HSTRING filePath,
+        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterResult** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStaticsVtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapterStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptionsVtbl
@@ -1216,6 +1557,41 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CText_CTextRewriteTone
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_LowRankAdapter)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This,
+        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter** value);
+    HRESULT (STDMETHODCALLTYPE* put_LowRankAdapter)(__x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2* This,
+        __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelLowRankAdapter* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelOptions2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelResponseResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CText_CILanguageModelResponseResult_INTERFACE_DEFINED__
