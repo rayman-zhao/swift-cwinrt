@@ -19,6 +19,12 @@
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2 __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSessionResult_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSessionResult_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSessionResult __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSessionResult;
@@ -1030,6 +1036,43 @@ struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CLanguageModelOptions
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* DescribeAsyncWithProgress)(__x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2* This,
+        __x_ABI_CMicrosoft_CWindows_CPrivateCommon_CIImageBufferResource* imageBufferResource,
+        enum __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CImageDescriptionKindInternal kind,
+        struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CContentFilterOptionsInternal contentFilterOptions,
+        GUID progressEventToken,
+        __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSessionResult** result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSession2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSessionResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CGenerativeInternal_CIImageDescriptionSessionResult_INTERFACE_DEFINED__

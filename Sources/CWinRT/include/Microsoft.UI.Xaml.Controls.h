@@ -3468,6 +3468,24 @@ typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CITextControlPasteEvent
 
 #endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitButtonStatics_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics;
+
+#endif // ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitView_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitView_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitView __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitView;
@@ -42989,6 +43007,117 @@ enum __x_ABI_CMicrosoft_CUI_CXaml_CControls_CZoomMode
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitButtonStatics;
 #endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitButtonStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Items)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+        __x_ABI_C__FIVector_1___x_ABI_CMicrosoft__CUI__CXaml__CControls__CMenuFlyoutItemBase** value);
+    HRESULT (STDMETHODCALLTYPE* get_SubMenuPresenterStyle)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIStyle** value);
+    HRESULT (STDMETHODCALLTYPE* put_SubMenuPresenterStyle)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIStyle* value);
+    HRESULT (STDMETHODCALLTYPE* get_SubMenuItemStyle)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIStyle** value);
+    HRESULT (STDMETHODCALLTYPE* put_SubMenuItemStyle)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIStyle* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory* This,
+        IInspectable* baseInterface,
+        IInspectable** innerInterface,
+        __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItem** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactoryVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_SubMenuPresenterStyleProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+    HRESULT (STDMETHODCALLTYPE* get_SubMenuItemStyleProperty)(__x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics* This,
+        __x_ABI_CMicrosoft_CUI_CXaml_CIDependencyProperty** value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStaticsVtbl;
+
+    interface __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics;
+#endif /* !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitMenuFlyoutItemStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitView_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CUI_CXaml_CControls_CISplitView_INTERFACE_DEFINED__

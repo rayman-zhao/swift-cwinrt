@@ -8,17 +8,36 @@
 #include "Windows.Foundation.h"
 
 /* Forward Declarations */
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics __x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics_FWD_DEFINED__
+
 #ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult_FWD_DEFINED__
 #define ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult_FWD_DEFINED__
     typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult;
 
 #endif // ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult_FWD_DEFINED__
 
+#ifndef ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2_FWD_DEFINED__
+#define ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2_FWD_DEFINED__
+    typedef interface __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2 __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2;
+
+#endif // ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
 
+typedef enum __x_ABI_CMicrosoft_CWindows_CAI_CAICapabilityCategory __x_ABI_CMicrosoft_CWindows_CAI_CAICapabilityCategory;
+
 typedef enum __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyResultState __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyResultState;
+
+enum __x_ABI_CMicrosoft_CWindows_CAI_CAICapabilityCategory
+    {
+        __x_ABI_CMicrosoft_CWindows_CAI_CAICapabilityCategory_CopilotPlusPC = 0,
+};
 
 enum __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyResultState
     {
@@ -35,6 +54,40 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState
     __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState_DisabledByUser = 3,
 };
 
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* HasAICapability)(__x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics* This,
+        enum __x_ABI_CMicrosoft_CWindows_CAI_CAICapabilityCategory category,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStaticsVtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CIAICapabilitiesStatics_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResultVtbl
@@ -73,4 +126,37 @@ enum __x_ABI_CMicrosoft_CWindows_CAI_CAIFeatureReadyState
     
     EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult;
 #endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PackageInstallationFailed)(__x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2* This,
+        boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2Vtbl;
+
+    interface __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2
+    {
+        CONST_VTBL struct __x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2;
+#endif /* !defined(____x_ABI_CMicrosoft_CWindows_CAI_CIAIFeatureReadyResult2_INTERFACE_DEFINED__) */
     
